@@ -40,12 +40,17 @@ In riflesso una scultura di Fabio Giorgi Alberti
 
 Con il supporto di Centro Ricerche Musicali, Ars Ludi, Fondazione Isabella Scelsi
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0272.JPG" alt="" class="full">{% endraw %}
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0272.JPG)
+{: .full}{% endraw %}
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0299.JPG" alt="" class="full">{% endraw %}
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0299.JPG)
+{: .full}{% endraw %}
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0368.JPG" alt="" class="full">{% endraw %}
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0368.JPG)
+{: .full}{% endraw %}
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0595.JPG" alt="" class="full">{% endraw %}
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0595.JPG)
+{: .full}{% endraw %}
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0638.JPG" alt="" class="full">{% endraw %}
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/20230903-AS-LAZZARO/arte.03.09-0638.JPG)
+{: .full}{% endraw %}
