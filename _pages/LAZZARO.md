@@ -1,7 +1,7 @@
 ---
 title: "LAZZARO"
-layout: archive
-permalink: /archive-lazzaro/
+layout: single
+permalink: /lazzaro/
 ---
 
 _...andare alla radice del suono, come fatto fisico e da qui come fatto musicale [...] riproporre, ma allargandone permanentemente i confini, il rapporto tra tecnologia e composizione._
