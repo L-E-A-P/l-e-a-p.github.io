@@ -17,11 +17,11 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
 locale: it-IT
-title: "Pensare in 4D"
-description: "pensare la musica con disobbedienza, disappunto, disordine e disincanto"
-baseurl: "/p4d" # the subpath of your site, e.g. "/blog"
-url: "https://grammaton.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /images/gs-p4d-logo-i-200.png # path of site logo, e.g. "/images/logo.png"
+title: "LEAP"
+description: "Laboratorio ElettroAcustico Permanente"
+baseurl: "/web" # the subpath of your site, e.g. "/blog"
+url: "https://L-E-A-P.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: https://github.com/L-E-A-P/logo/blob/main/test-hd-w.png # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -34,11 +34,11 @@ mathjax:
 #     weights: "400,400i,700,700i"
 #   - name: "Lora"
 #     weights: "400,400i,700,700i"
-google_analytics: G-ZEW6LGM7FL # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: p4d-1 # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: giuseppesilvi # site's Twitter username, e.g. "mmistakes"
+  username: # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
