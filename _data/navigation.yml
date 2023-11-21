@@ -1,11 +1,9 @@
 # Sample site navigation bar links
 
-- title: Home
-  url: /
+# - title: Home
+#   url: /
 - title: Lazzaro
   url: /lazzaro/
-- title: Lazzaroni
-  url: /lazzaroni/
 # - title: Recipes
 #   url: /recipes/
 - title: Search
