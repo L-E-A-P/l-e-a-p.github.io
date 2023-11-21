@@ -36,7 +36,7 @@ mathjax:
 #     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: leap-2 # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
@@ -105,9 +105,9 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-  # - title: Twitter
-  #   url: https://twitter.com/giuseppesilvi
-  #   icon: fab fa-twitter-square
+  - title: Telegram
+    url: https://t.me/+T6f_6KIRNPszYTQ0
+    icon: fab fa-telegram-square
   - title: GitHub
     url: https://github.com/l-e-a-p
     icon: fab fa-github-square
