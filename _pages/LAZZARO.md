@@ -1,6 +1,6 @@
 ---
 title: "LAZZARO"
-layout: single
+layout: page
 permalink: /lazzaro/
 ---
 
