@@ -19,7 +19,7 @@ skin: "/assets/css/skins/dark.css"
 locale: it-IT
 title: "LEAP"
 description: "Laboratorio ElettroAcustico Permanente"
-baseurl: "/web" # the subpath of your site, e.g. "/blog"
+# baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://L-E-A-P.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare.png # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
