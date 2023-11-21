@@ -1,6 +1,7 @@
 ---
 title: "LAZZARO"
 layout: page
+comments: true
 permalink: /lazzaro/
 ---
 
