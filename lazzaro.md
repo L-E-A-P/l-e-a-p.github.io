@@ -1,6 +1,6 @@
 ---
 title: "LAZZARO"
-layout: page
+layout: project
 comments: true
 permalink: /lazzaro/
 ---
