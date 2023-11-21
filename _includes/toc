@@ -1,7 +1,9 @@
-<aside class="sidebar__right">
-<nav class="toc" markdown="1">
-<header><h4 class="nav__title"><i class="fas fa-{{ include.icon | default: 'file-alt' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-*  Auto generated table of contents
-{:toc .toc__menu}
-</nav>
-</aside>
+{::options parse_block_html="true" /}
+<div id="entry-table-of-contents" class="toc-wrapper">
+<h2 id="toc-toggle" class="no_toc">
+  {{ site.data.text[site.locale].table_of_contents | default: 'Table of Contents' }} <i class="toc-toggle-icon fas fa-chevron-down"></i>
+</h2>
+1. toc
+{:toc}
+</div>
+{::options parse_block_html="false" /}
