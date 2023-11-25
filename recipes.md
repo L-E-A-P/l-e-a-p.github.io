@@ -1,5 +1,5 @@
 ---
-title: Recipes
+title: Archi di Pietra
 layout: collection
 permalink: /recipes/
 collection: recipes
