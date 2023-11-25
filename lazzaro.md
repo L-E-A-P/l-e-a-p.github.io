@@ -41,12 +41,12 @@ In riflesso una scultura di Fabio Giorgi Alberti
 
 Con il supporto di Centro Ricerche Musicali, Ars Ludi, Fondazione Isabella Scelsi
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/20230903-AS-LAZZARO/arte.03.09-0272.JPG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-09-03-AS-LAZZARO/arte.03.09-0272.JPG)
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/20230903-AS-LAZZARO/arte.03.09-0299.JPG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-09-03-AS-LAZZARO/arte.03.09-0299.JPG)
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/20230903-AS-LAZZARO/arte.03.09-0368.JPG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-09-03-AS-LAZZARO/arte.03.09-0368.JPG)
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/20230903-AS-LAZZARO/arte.03.09-0595.JPG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-09-03-AS-LAZZARO/arte.03.09-0595.JPG)
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/20230903-AS-LAZZARO/arte.03.09-0638.JPG)
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-09-03-AS-LAZZARO/arte.03.09-0638.JPG)
