@@ -1,9 +1,9 @@
 ---
-title: "Chocolate Chip Cookies"
-image: 
-  path: /images/chocolate-chip-cookies-lg.jpg
-  thumbnail: /images/chocolate-chip-cookies-400x200.jpg
-  caption: "Photo from [Pexels](https://www.pexels.com)"
+title: "Primo Respiro"
+image:
+  path: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png
+  thumbnail: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png
+  caption: "Primo Respiro"
 ---
 
 A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.
