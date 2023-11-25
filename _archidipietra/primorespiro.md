@@ -7,3 +7,19 @@ image:
 ---
 
 Il sei novembre duemilaventitré, alle ore sedici, Pasquale Citera ha condiviso un'analisi di _An Index of Metals_ di **Fausto Romitelli**. L'analisi si è svolta in forma di guida all'ascolto in vista del concerto dell'otto novembre duemilaventitré svoltosi presso l'_Auditorium Parco della Musica_ ed interpretato dal _PMCE - Parco della Musica Contemporary Ensemble_.
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-001.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-002.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-003.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-004.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-005.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-006.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-007.jpeg)
+
+![alt]({{ site.url }}{{ site.baseurl }}/images/2023-11-06-adp-primo-respiro/ac/2023-11-06-adp-primo-respiro-ac-008.jpeg)
