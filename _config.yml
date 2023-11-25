@@ -79,17 +79,32 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
-  # Posts defaults
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
+      comments: true
       share: true
-
+  # Recipe defaults
+  - scope:
+      path: "_archi"
+      type: archi
+    values:
+      layout: project
+      comments: true
+      share: true
 # Site Author
 author:
   name:
