@@ -1,12 +1,12 @@
 ---
 title: "Primo Respiro"
 image:
-  path: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png
+  path: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX-300.png
   thumbnail: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png
   caption: "Primo Respiro"
 ---
 
-A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.
+In vista del concerto del 08 Novembre 2023 presso l'_Auditorium Parco della Musica_ che vedrà _PMCE - Parco della Musica Contemporary Ensemble_ impegnato in _An Index of Metals_ di Fausto Romitelli, Pasquale Citera condividerà un'analisi dell'opera in forma di guida all'ascolto.
 
 The traditional recipe combines a dough composed of butter and both brown and white sugar with semi-sweet chocolate chips. Variations include recipes with other types of chocolate as well as additional ingredients such as nuts or oatmeal.
 
