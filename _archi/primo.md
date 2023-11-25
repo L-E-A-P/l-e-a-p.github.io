@@ -12,6 +12,8 @@ The traditional recipe combines a dough composed of butter and both brown and wh
 
 This recipe makes 4 dozen cookies.
 
+![alt]({{ site.url }}{{ site.baseurl }}/archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png)
+
 ## Ingredients
 
 * 2 1/4 cups all-purpose flour
