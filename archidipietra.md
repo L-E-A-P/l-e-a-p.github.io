@@ -1,7 +1,7 @@
 ---
-title: Archi
+title: Archi di pietra
 layout: collection
 entries_layout: grid
-permalink: /archi/
-collection: archi
+permalink: /archidipietra/
+collection: archidipietra
 ---
