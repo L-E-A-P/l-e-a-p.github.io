@@ -85,6 +85,9 @@ collections:
   archidipietra:
     output: true
     permalink: /:collection/:path/
+  lazzaro:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -94,6 +97,14 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
+      share: true
+# Lazzaro
+  - scope:
+      path: "_lazzaro"
+      type: lazzaro
+    values:
+      layout: project
       comments: true
       share: true
 # Archi di pietra defaults
