@@ -82,13 +82,13 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  archidipietra:
     output: true
     permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
-  # Post defaults
+# Post defaults
   - scope:
       path: "_posts"
       type: posts
@@ -96,23 +96,15 @@ defaults:
       layout: post
       comments: true
       share: true
-  # Recipe defaults
+# Archi di pietra defaults
   - scope:
-      path: "_archi"
-      type: archi
+      path: "_archidipietra"
+      type: archidipietra
     values:
       layout: project
       comments: true
       share: true
-  # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      comments: true
-      share: true
-      
+
 # Site Author
 author:
   name:
