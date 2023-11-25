@@ -79,7 +79,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-redirect-from
 
 # Collections
 collections:
@@ -105,6 +104,15 @@ defaults:
       layout: project
       comments: true
       share: true
+  # Recipe defaults
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      comments: true
+      share: true
+      
 # Site Author
 author:
   name:
