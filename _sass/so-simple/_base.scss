@@ -185,9 +185,3 @@ figcaption {
     }
   }
 }
-
-/* Fix IE9 SVG bug */
-
-svg:not(:root) {
-  overflow: hidden;
-}
