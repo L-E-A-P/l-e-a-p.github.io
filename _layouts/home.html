@@ -6,7 +6,7 @@ layout: page
 
 {% include page-author.html %}
 
-<div class="entries-{{ page.entries_layout | default: 'grid' }}">
+<!-- <div class="entries-{{ page.entries_layout | default: 'grid' }}">
   <ul>
     {% for author in site.data.authors %}
     <li>
@@ -14,7 +14,7 @@ layout: page
     </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
