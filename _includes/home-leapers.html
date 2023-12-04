@@ -10,7 +10,7 @@
     {%- else -%}
       {%- assign author_picture = author.picture | relative_url -%}
     {%- endif -%}
-    <img src="{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
+    <a href="{{ site.url }}/{{ author.short }}" <img src="{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}"></a>
   {%- endif -%}
 
   <div class="author-info">
