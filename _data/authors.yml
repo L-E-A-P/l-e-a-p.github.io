@@ -1,7 +1,7 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Alice:
+- Alice:
   name: Alice Cortegiani
   picture: alice/images/gs.jpg
   twitter: ""
@@ -14,7 +14,7 @@ Alice:
       url: http://buymeacoffee.com/?via=grammaton
       icon: fas fa-coffee
 
-Giuseppe:
+- Giuseppe:
   name: Giuseppe Silvi
   picture: /images/gs.jpg
   twitter: "@giuseppesilvi"
