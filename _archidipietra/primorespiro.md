@@ -1,8 +1,8 @@
 ---
 title: "Primo Respiro"
 image:
-  path: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX-300.png
-  thumbnail: /archi-di-pietra/2023-11-06-PAX/2023-11-06-PAX.png
+  path: images/archi-di-pietra/2023-11-06-PAX-300.png
+  thumbnail: images/archi-di-pietra/2023-11-06-PAX.png
   caption: "Primo Respiro"
 gallery:
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-001-3134.jpg
