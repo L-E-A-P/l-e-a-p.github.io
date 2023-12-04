@@ -1,6 +1,33 @@
 # Sample Authors
 # Remove file or replace with your own
 
+Billy Rick:
+  name: Billy Rick
+  picture: /images/bio-photo-2.jpg
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+
+Cornelius Fiddlebone:
+  name: Cornelius Fiddlebone
+  picture: /images/bio-photo.jpg
+  twitter: corneliusfiddlebone
+
+Alice:
+  name: Alice Cortegiani
+  picture: /images/gs.jpg
+  twitter: ""
+  bio: "Zebra"
+  links:
+    - title: Twitter
+      url: https://twitter.com/giuseppesilvi
+      icon: fab fa-twitter-square
+    - title: buymeacoffee
+      url: http://buymeacoffee.com/?via=grammaton
+      icon: fas fa-coffee
+
 Giuseppe:
   name: Giuseppe Silvi
   picture: /images/gs.jpg
