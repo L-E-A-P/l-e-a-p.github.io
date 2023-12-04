@@ -7,10 +7,10 @@ LEAP, Laboratorio ElettroAcustico Permanente. Dal Dicembre 2020 appare sulle map
 
 # LEAPERS:
 
-[Alice Cortegiani](https://l-e-a-p.github.io/alice/)
+<!-- [Alice Cortegiani](https://l-e-a-p.github.io/alice/)
 
 [Marco Di Gasbarro](https://l-e-a-p.github.io/marco/)
 
 [Giuseppe Silvi](https://l-e-a-p.github.io/giuseppe/)
 
-[Leonardo Zaccone](https://l-e-a-p.github.io/leonardo/)
+[Leonardo Zaccone](https://l-e-a-p.github.io/leonardo/) -->
