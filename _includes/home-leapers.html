@@ -16,7 +16,7 @@
   <div class="author-info">
     {%- if author.name -%}
       <div class="author-name">
-        {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
+        <span class="p-name">{{ author.name }}</span>
       </div>
     {%- endif -%}
 
@@ -43,7 +43,5 @@
       </ul>
     {%- endif -%}
 {% endfor %}
-    {% if site.read_time %}{% include read-time.html %}{% endif %}
-    {% if page.date %}{% include page-date.html %}{% endif %}
   </div>
 </div>

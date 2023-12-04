@@ -3,19 +3,35 @@
 
 - Alice:
   name: Alice Cortegiani
-  picture: alice/images/gs.jpg
+  email: alicecortegiani@gmail.com
+  picture: alice/images/7A4AAA02-7EFE-4736-A897-D8B930C50EF2.jpeg
   twitter: ""
   bio: "Zebra"
-  links:
-    - title: Twitter
-      url: https://twitter.com/giuseppesilvi
-      icon: fab fa-twitter-square
-    - title: buymeacoffee
-      url: http://buymeacoffee.com/?via=grammaton
-      icon: fas fa-coffee
+  # links:
+    # - title: Twitter
+    #   url: https://twitter.com/giuseppesilvi
+    #   icon: fab fa-twitter-square
+    # - title: buymeacoffee
+    #   url: http://buymeacoffee.com/?via=grammaton
+    #   icon: fas fa-coffee
+
+- Marco:
+  name: Marco Di Gasbarro
+  email: m.digasbarro@gmail.com
+  picture: marco/images/ardecore_villaada.jpg
+  # twitter: "@giuseppesilvi"
+  bio: "Naturale"
+  # links:
+  #   - title: Twitter
+  #     url: https://twitter.com/giuseppesilvi
+  #     icon: fab fa-twitter-square
+  #   - title: buymeacoffee
+  #     url: http://buymeacoffee.com/?via=grammaton
+  #     icon: fas fa-coffee
 
 - Giuseppe:
   name: Giuseppe Silvi
+  email: grammaton@me.com
   picture: /images/gs.jpg
   twitter: "@giuseppesilvi"
   bio: "Maestro di difesa contro le arti oscure. Inizia ad udire in età prenatale. Ascolta dall'età di 27 anni ma punta con rispetto a sentire."
