@@ -3,6 +3,7 @@
 
 - Alice:
   name: Alice Cortegiani
+  short: alice
   email: alicecortegiani@gmail.com
   picture: alice/images/7A4AAA02-7EFE-4736-A897-D8B930C50EF2.jpeg
   twitter: ""
@@ -17,6 +18,7 @@
 
 - Marco:
   name: Marco Di Gasbarro
+  short: marco
   email: m.digasbarro@gmail.com
   picture: marco/images/ardecore_villaada.jpg
   # twitter: "@giuseppesilvi"
@@ -31,6 +33,7 @@
 
 - Giuseppe:
   name: Giuseppe Silvi
+  short: giuseppe
   email: grammaton@me.com
   picture: /images/gs.jpg
   twitter: "@giuseppesilvi"
