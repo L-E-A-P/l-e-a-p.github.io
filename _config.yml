@@ -94,6 +94,14 @@ collections:
 
 # Front Matter Defaults
 defaults:
+# Authors
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: home
+      comments: false
+      share: false
 # Post defaults
   - scope:
       path: "_posts"
