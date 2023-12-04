@@ -5,17 +5,16 @@ image:
   thumbnail: images/archi-di-pietra/2023-11-06-PAX.png
   caption: "Primo Respiro"
 gallery:
-  - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-001-3134.jpg
-    image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-001-3134.jpg
-  - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-002-3040.jpg
-    image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-002-3040.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-001-3134.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-001-3134.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-002-3040.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-002-3040.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-003-3066.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-003-3066.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-004-3050.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-004-3050.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-005-3095.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-005-3095.jpg
-
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-006-3084.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-006-3084.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-007-3146.jpg
@@ -26,7 +25,6 @@ gallery:
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-009-3120.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-010-3113.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-010-3113.jpg
-
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-011-3035.jpg
     image_path: images/2023-11-06-adp-primo-respiro/thumb/2023-11-06-011-3035.jpg
   - url: images/2023-11-06-adp-primo-respiro/ac/2023-11-06-012-3137.jpg
