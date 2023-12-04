@@ -1,19 +1,7 @@
 <!-- {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%} -->
 
-{% if include.layout %}
-  {% assign gallery_layout = include.layout %}
-{% else %}
-  {% if gallery.size == 2 %}
-    {% assign gallery_layout = 'half' %}
-  {% elsif gallery.size >= 3 %}
-    {% assign gallery_layout = 'third' %}
-  {% else %}
-    {% assign gallery_layout = '' %}
-  {% endif %}
-{% endif %}
-
-<div class="third page-author h-card p-author">
+<div class="page-author h-card p-author">
   {% for author in site.data.authors %}
 
   {%- if author.picture -%}
