@@ -197,3 +197,7 @@ figure {
 .leapers {
   column-count: 4;
 }
+
+.leaper {
+  break-inside: avoid;
+}
