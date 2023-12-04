@@ -1,10 +1,10 @@
 <!-- {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%} -->
 
-<div class="row">
+<div class="leapers">
 <div class="page-author h-card p-author">
   {% for author in site.data.authors %}
-<div class="column">
+
   {%- if author.picture -%}
     {%- if author.picture contains "://" -%}
       {%- assign author_picture = author.picture -%}
@@ -45,9 +45,5 @@
     {%- endif -%}
 {% endfor %}
   </div>
-<!-- column -->
 </div>
-
-</div>
-<!-- row -->
 </div>
