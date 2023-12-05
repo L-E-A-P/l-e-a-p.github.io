@@ -1,5 +1,5 @@
 ---
-title: Lazzaro
+title: LAZZARO
 layout: collection
 entries_layout: grid
 permalink: /lazzaro/
