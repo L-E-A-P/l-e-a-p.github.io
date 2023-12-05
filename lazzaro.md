@@ -6,8 +6,8 @@ permalink: /lazzaro/
 collection: lazzaro
 ---
 
-> La musica non è solo composizione. 
-Non è artigianato, non è un mestiere. 
+> La musica non è solo composizione.     
+Non è artigianato, non è un mestiere.     
 La musica è pensiero.
 
 Il LEAP è il luogo utopico per la condivisione della ricerca con il
