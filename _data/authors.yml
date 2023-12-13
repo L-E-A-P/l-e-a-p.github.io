@@ -5,9 +5,9 @@
   name: Alice Cortegiani
   short: alice
   email: alicecortegiani@gmail.com
-  picture: alice/images/7A4AAA02-7EFE-4736-A897-D8B930C50EF2.jpeg
+  picture: /images/ac.jpg
   twitter: ""
-  bio: "Zebra"
+  bio: "Aut provident asperiores voluptatem et. Illum doloremque rem ab aperiam ut. Veritatis eos eaque suscipit nemo molestiae fuga. Vel molestias aut exercitationem sunt. Quia et est consectetur est vel quaerat. Et molestias est rem molestiae quam rem dolores."
   # links:
     # - title: Twitter
     #   url: https://twitter.com/giuseppesilvi
@@ -20,9 +20,9 @@
   name: Marco Di Gasbarro
   short: marco
   email: m.digasbarro@gmail.com
-  picture: marco/images/ardecore_villaada.jpg
+  picture: /images/mdg.jpg
   # twitter: "@giuseppesilvi"
-  bio: "Naturale"
+  bio: "Voluptatem rerum provident eos cumque molestiae. Dolor quaerat quisquam animi tenetur quo corrupti accusamus. Ratione enim ea cumque et voluptates ea possimus sed. Sunt sint beatae dolorem quis eveniet. Placeat consequatur sed dolores autem qui voluptatem ab."
   # links:
   #   - title: Twitter
   #     url: https://twitter.com/giuseppesilvi
@@ -52,4 +52,4 @@
   email: leonardo.zaccone@gmail.com
   picture: images/leo.jpg
   twitter: ""
-  bio: "Panda"
+  bio: "Eum quisquam magni eos ullam sint nisi nihil atque. Cum sit dolorem asperiores distinctio fugit. Sint doloribus consequatur ad dolore ut qui."

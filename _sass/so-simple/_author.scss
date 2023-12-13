@@ -22,6 +22,12 @@
   }
 }
 
+// .author-bio {
+//   @include breakpoint($large) {
+//     margin-bottom: 0.5em;
+//   }
+// }
+
 .author-links {
   display: none;
   margin: 0 0 1.5em;

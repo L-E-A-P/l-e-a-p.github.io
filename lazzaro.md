@@ -4,7 +4,7 @@ layout: collection
 entries_layout: grid
 permalink: /lazzaro/
 collection: lazzaro
-image: images/lazzaro/landare-lazzaro-20231077-1.jpg
+image: images/lazzaro/lazzaro-hero.jpg
 ---
 
 > La musica non è solo composizione.     
