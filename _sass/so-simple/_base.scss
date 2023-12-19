@@ -204,3 +204,17 @@ figure {
   text-align: center;
 
 }
+
+.leaper-avatar {
+  // margin-right: 1em;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+
+  @include breakpoint($large) {
+    margin-right: 0;
+    margin-bottom: .5em;
+    width: 100px;
+    height: auto;
+  }
+}
