@@ -1,6 +1,6 @@
 <div class="leapers">
   {% for author in site.data.authors %}
-  <div class="leaper page-author h-card p-author ">
+  <div class="leaper">
     {%- if author.picture -%}
       {%- if author.picture contains "://" -%}
         {%- assign author_picture = author.picture -%}
