@@ -10,5 +10,3 @@ fisico delle persone che lo animano. ElettroAcustico, perché è nella storia
 della ricerca musicale romana, la necessità di trovare nell’ascolto il luogo
 d’unione tra tecnologia e strumento acustico. LEAP, salto, quello che facciamo
 con il pensiero inseguendo l’intuizione.
-
-# LEAPERS:
