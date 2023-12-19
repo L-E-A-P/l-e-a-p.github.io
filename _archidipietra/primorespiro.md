@@ -5,30 +5,30 @@ image:
   thumbnail: images/archi-di-pietra/2023-11-06-PAX.png
   caption: "Primo Respiro"
 gallery:
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-001-3134.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-001-3134.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-002-3040.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-002-3040.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-003-3066.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-003-3066.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-004-3050.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-004-3050.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-005-3095.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-005-3095.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-006-3084.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-006-3084.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-007-3146.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-007-3146.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-008-3125.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-008-3125.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-009-3120.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-009-3120.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-010-3113.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-010-3113.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-011-3035.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-011-3035.jpg
-  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/2023-11-06-012-3137.jpg
-    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/thumb/2023-11-06-012-3137.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-01.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-01.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-02.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-02.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-03.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-03.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-04.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-04.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-05.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-05.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-06.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-06.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-07.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-07.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-08.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-08.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-09.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-09.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-10.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-10.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-11.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-11.jpg
+  - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-12.jpg
+    image_path: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/thumb/2023-11-06-adp-12.jpg
 ---
 
 Il sei novembre duemilaventitré, alle ore sedici, Pasquale Citera ha condiviso
