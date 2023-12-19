@@ -4,6 +4,7 @@ layout: collection
 entries_layout: grid
 permalink: /archidipietra/
 collection: archidipietra
+image: images/archi-di-pietra/2023-11-adp-hero.jpg
 ---
 
 > Entra, lettore, una notte, nella quiete oscura della Collegiata di San Isidoro
