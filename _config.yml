@@ -134,7 +134,7 @@ footer_links:
     icon: fas fa-rss-square
   - title: Telegram
     url: https://t.me/+T6f_6KIRNPszYTQ0
-    icon: fab fa-telegram-square
+    icon: fab fa-telegram
   - title: GitHub
     url: https://github.com/l-e-a-p
     icon: fab fa-github-square
