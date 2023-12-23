@@ -1,25 +1,27 @@
+<h1> LEAPERS: </h1>
+
 <div class="leapers">
-  {% for author in site.data.authors %}
+  {% for leaper in site.data.leapers %}
   <div class="leaper">
-    {%- if author.picture -%}
-      {%- if author.picture contains "://" -%}
-        {%- assign author_picture = author.picture -%}
+    {%- if leaper.picture -%}
+      {%- if leaper.picture contains "://" -%}
+        {%- assign author_picture = leaper.picture -%}
       {%- else -%}
-        {%- assign author_picture = author.picture | relative_url -%}
+        {%- assign author_picture = leaper.picture | relative_url -%}
       {%- endif -%}
       <img src="{{ author_picture }}" class="leaper-avatar u-photo" alt="{{ author.name }}">
     {%- endif -%}
 
     <div class="author-info">
-      {%- if author.name -%}
+      {%- if leaper.name -%}
       <div class="author-name">
-        <a href="{{ site.url }}/{{ author.short }}"> {{ author.name }} </a>
+        <a href="{{ site.url }}/{{ author.short }}"> {{ leaper.name }} </a>
       </div>
       {%- endif -%}
 
-      {%- if author.bio -%}
+      {%- if leaper.bio -%}
       <div class="author-bio">
-        <em class="p-bio">{{ author.bio }}</em>
+        <em class="p-bio">{{ leaper.bio }}</em>
       </div>
       {%- endif -%}
     </div>

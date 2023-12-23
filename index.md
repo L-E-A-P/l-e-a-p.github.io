@@ -1,5 +1,7 @@
 ---
 layout: home
+entries_layout: list
+collection: salti
 ---
 
 LEAP, Laboratorio ElettroAcustico Permanente. Dal Dicembre 2020 appare sulle

@@ -17,15 +17,6 @@
         {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
       </div>
     {%- endif -%}
-
-    <!-- CUSTOM  BIO -->
-    {%- if author.bio -%}
-    <div class="author-bio">
-      <em class="p-bio">{{ author.bio }}</em>
-    <br></br>
-    </div>
-      {%- endif -%}
-
     {%- if author.links -%}
       <ul class="author-links">
         {%- for link in author.links -%}

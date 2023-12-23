@@ -88,6 +88,8 @@ collections:
   lazzaro:
     output: true
     permalink: /:collection/:path/
+  salti:
+    output: true
 
 # Front Matter Defaults
 defaults:
@@ -115,12 +117,20 @@ defaults:
       layout: project
       comments: true
       share: true
+# Archi di pietra defaults
+  - scope:
+      path: "_salti"
+      type: salti
+    values:
+      layout: post
+      comments: true
+      share: true
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
+  name: LEAP
+  picture: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare.png
+  email: grammaton@me.com
   twitter:
   links:
     - title:

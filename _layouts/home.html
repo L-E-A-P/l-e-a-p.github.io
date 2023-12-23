@@ -4,19 +4,19 @@ layout: page
 
 {{ content }}
 
-<h1> LEAPERS: </h1>
-
 {% include home-leapers.html %}
 
-<!-- <h1> ATTIVITÀ: </h1>
+{% include home-salti.html %}
 
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
+
+
+<!-- <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
     {%- comment -%}
       Add paginator.posts loop if jekyll-paginate plugin is enabled
       and page.paginate == true
     {%- endcomment -%}
-    {% include posts-paginated.html %}
+    {% include posts-paginated.html sort_by=page.sort_by sort_order=page.sort_order %}
   {%- else -%}
     {% include posts-limit.html %}
   {%- endif -%}

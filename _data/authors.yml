@@ -1,55 +1,16 @@
 # Sample Authors
 # Remove file or replace with your own
 
-- Alice:
-  name: Alice Cortegiani
-  short: alice
-  email: alicecortegiani@gmail.com
-  picture: /images/ac.jpg
-  twitter: ""
-  bio: "Sulla soglia dell'immenso non sapere, la garanzia non è finalità."
-  # links:
-    # - title: Twitter
-    #   url: https://twitter.com/giuseppesilvi
-    #   icon: fab fa-twitter-square
-    # - title: buymeacoffee
-    #   url: http://buymeacoffee.com/?via=grammaton
-    #   icon: fas fa-coffee
-
-- Marco:
-  name: Marco Di Gasbarro
-  short: marco
-  email: m.digasbarro@gmail.com
-  picture: /images/mdg.jpg
-  # twitter: "@giuseppesilvi"
-  bio: "Voluptatem rerum provident eos cumque molestiae. Dolor quaerat quisquam animi tenetur quo corrupti accusamus. Ratione enim ea cumque et voluptates ea possimus sed. Sunt sint beatae dolorem quis eveniet. Placeat consequatur sed dolores autem qui voluptatem ab."
-  # links:
-  #   - title: Twitter
-  #     url: https://twitter.com/giuseppesilvi
-  #     icon: fab fa-twitter-square
-  #   - title: buymeacoffee
-  #     url: http://buymeacoffee.com/?via=grammaton
-  #     icon: fas fa-coffee
-
-- Giuseppe:
-  name: Giuseppe Silvi
-  short: giuseppe
-  email: grammaton@me.com
-  picture: /images/gs.jpg
-  twitter: "@giuseppesilvi"
-  bio: "Maestro di difesa contro le arti oscure. Inizia ad udire in età prenatale. Ascolta dall'età di 27 anni ma punta con rispetto a sentire."
+Billy Rick:
+  name: Billy Rick
+  picture: /images/bio-photo-2.jpg
+  twitter: "@billyrick"
   links:
     - title: Twitter
-      url: https://twitter.com/giuseppesilvi
+      url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
-    - title: buymeacoffee
-      url: http://buymeacoffee.com/?via=grammaton
-      icon: fas fa-coffee
 
-- Leonardo:
-  name: Leonardo Zaccone
-  short: leonardo
-  email: leonardo.zaccone@gmail.com
-  picture: images/leo.jpg
-  twitter: ""
-  bio: "Poeta, performer, musicologo. Lancia sampietrini sulle vetrine del mondo."
+Cornelius Fiddlebone:
+  name: Cornelius Fiddlebone
+  picture: /images/bio-photo.jpg
+  twitter: corneliusfiddlebone

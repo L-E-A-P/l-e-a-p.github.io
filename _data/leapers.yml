@@ -1,0 +1,55 @@
+# Sample Authors
+# Remove file or replace with your own
+
+- Alice:
+  name: Alice Cortegiani
+  short: alice
+  email: alicecortegiani@gmail.com
+  picture: /images/ac.jpg
+  twitter: ""
+  bio: "Sulla soglia dell'immenso non sapere, la garanzia non è finalità."
+  # links:
+    # - title: Twitter
+    #   url: https://twitter.com/giuseppesilvi
+    #   icon: fab fa-twitter-square
+    # - title: buymeacoffee
+    #   url: http://buymeacoffee.com/?via=grammaton
+    #   icon: fas fa-coffee
+
+- Marco:
+  name: Marco Di Gasbarro
+  short: marco
+  email: m.digasbarro@gmail.com
+  picture: /images/mdg.jpg
+  # twitter: "@giuseppesilvi"
+  bio: "Voluptatem rerum provident eos cumque molestiae. Dolor quaerat quisquam animi tenetur quo corrupti accusamus."
+  # links:
+  #   - title: Twitter
+  #     url: https://twitter.com/giuseppesilvi
+  #     icon: fab fa-twitter-square
+  #   - title: buymeacoffee
+  #     url: http://buymeacoffee.com/?via=grammaton
+  #     icon: fas fa-coffee
+
+- Giuseppe:
+  name: Giuseppe Silvi
+  short: giuseppe
+  email: grammaton@me.com
+  picture: /images/gs.jpg
+  twitter: "@giuseppesilvi"
+  bio: "Maestro di difesa contro le arti oscure. Inizia ad udire in età prenatale. Ascolta dall'età di 27 anni ma punta con rispetto a sentire."
+  links:
+    - title: Twitter
+      url: https://twitter.com/giuseppesilvi
+      icon: fab fa-twitter-square
+    - title: buymeacoffee
+      url: http://buymeacoffee.com/?via=grammaton
+      icon: fas fa-coffee
+
+- Leonardo:
+  name: Leonardo Zaccone
+  short: leonardo
+  email: leonardo.zaccone@gmail.com
+  picture: images/leo.jpg
+  twitter: ""
+  bio: "Poeta, performer, musicologo. Lancia sampietrini sulle vetrine del mondo."
