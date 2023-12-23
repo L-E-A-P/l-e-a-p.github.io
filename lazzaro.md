@@ -17,9 +17,11 @@ musicale è uno strumento di pensiero: un dispositivo reatroattivo:
 lo specchio attraverso cui il confronto con la sala da concerto è parte
 della composizione.
 
-Il progetto LAZZARO nasce dallo studio di questi processi esplorando
-nelle identità degli strumenti curvature, metamorfosi, relazioni
+Il progetto LAZZARO nasce dallo studio di questi processi esplorando,
+nelle identità degli strumenti, curvature, metamorfosi, relazioni
 verso un sistema da condividere.
+
+L'approdo alla letteratura è parte dell'eplorazione cibernetica, cambiano solo le coordinate: si possono scoprire nuovi luoghi quanto nuovi tempi e puo accadere che siano la stessa cosa. 
 
 > «Non sono forse dodici le ore del giorno? Se uno cammina di giorno, non
 inciampa, perché vede la luce di questo mondo; ma se cammina di notte, inciampa,
