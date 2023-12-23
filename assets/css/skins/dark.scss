@@ -10,10 +10,10 @@
 /* Colors */
 $base-color: #F0F8FF !default; // #eaeaea
 $text-color: #F0F8FF !default;
-$accent-color: #00adb5 !default;
+$accent-color: #89FF59 !default; // #00adb5
 $nav-color: #F0F8FF !default; // #aeaeae
-$background-color: #291f2a !default; // #252a34
-$nav-background-color: mix(#000, $background-color, 30%) !default;
+$background-color: #230031 !default; // #252a34 - #2b003d
+$nav-background-color: mix(#000, $background-color, 40%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $border-color: tint($base-color, 80%) !default;
 
