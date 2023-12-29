@@ -16,7 +16,7 @@ Francesco Vitucci.
 <!--more-->
 
 
-
+image: images/vitucci-posticcio.jpeg
 
 
 > ##### *Francesco Vitucci*, nato nel 1991, è un compositore ed esecutore elettroacustico di Bari (IT).
