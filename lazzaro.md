@@ -11,7 +11,7 @@ image: images/lazzaro/lazzaro-hero.jpg
 Non è artigianato, non è un mestiere.     
 La musica è pensiero.
 
-Il LEAP è il luogo utopico per la condivisione della ricerca con il
+Il LEAP è il luogo eterotopico per la condivisione della ricerca con il
 pubblico. La soglia di questo luogo: l'idea che lo strumento
 musicale è uno strumento di pensiero: un dispositivo reatroattivo:
 lo specchio attraverso cui il confronto con la sala da concerto è parte
