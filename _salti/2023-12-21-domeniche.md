@@ -1,4 +1,5 @@
 ---
+image: images/vedovaIDT.jpg
 title: "le domeniche alla periferia dell'impero"
 author: Dio
 excerpt_separator: "<!--more-->"
