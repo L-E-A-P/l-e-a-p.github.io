@@ -16,7 +16,7 @@ Francesco Vitucci.
 <!--more-->
 
 
-![no-alignment]({{ '/images/vitucci-posticcio.jpeg' | absolute_url }})
+![no-alignment]({{ '/images/vituccif.jpg' | absolute_url }})
 
 
 
