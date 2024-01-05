@@ -8,8 +8,7 @@ tags:
   - Approdi
 ---
 
-Lunedi ventidue gennaio duemilaventiquattro alle ore diciassette Francesco Galante condividerà
-un percorso di analisi e ascolto di alcune delle sue opere acusmatiche.
+Verso ← *Prometeo* Sabato tredici gennaio Giuseppe Silvi condividerà un'introduzione all'opera di Luigi Nono in previsione della messa in scena veneziana.
 
 <!--more-->
 
