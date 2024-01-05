@@ -8,7 +8,7 @@ tags:
   - Approdi
 ---
 
-Verso ← *Prometeo* Sabato tredici gennaio Giuseppe Silvi condividerà un'introduzione all'opera di Luigi Nono in previsione della messa in scena veneziana.
+Verso ← *Prometeo* . Sabato tredici gennaio Giuseppe Silvi condividerà un'introduzione all'opera di Luigi Nono in previsione della messa in scena veneziana.
 
 <!--more-->
 
