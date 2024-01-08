@@ -28,4 +28,6 @@ inciampa, perché vede la luce di questo mondo; ma se cammina di notte, inciampa
 perché la luce non è in lui». Disse queste cose e poi soggiunse loro: «Il nostro
 amico Lazzaro si è addormentato; ma io vado a svegliarlo».
 
+{% include responsive-embed url="https://www.youtube-nocookie.com/embed/z0JPGXozDUs?si=U5E6DfTT6PZfDt0H;" %}
+
 # APPARIZIONI
