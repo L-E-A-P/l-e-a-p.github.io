@@ -13,7 +13,7 @@ La musica è pensiero.
 
 Il LEAP è il luogo eterotopico per la condivisione della ricerca con il
 pubblico. La soglia di questo luogo: l'idea che lo strumento
-musicale è uno strumento di pensiero: un dispositivo reatroattivo:
+musicale è uno strumento di pensiero: un dispositivo retroattivo:
 lo specchio attraverso cui il confronto con la sala da concerto è parte
 della composizione.
 
@@ -21,7 +21,7 @@ Il progetto LAZZARO nasce dallo studio di questi processi esplorando,
 nelle identità degli strumenti, curvature, metamorfosi, relazioni
 verso un sistema da condividere.
 
-L'approdo alla letteratura è parte dell'eplorazione cibernetica; cambiano le coordinate: si possono scoprire nuovi luoghi quanto nuovi tempi e può accadere che siano la stessa cosa. 
+L'approdo alla letteratura è parte dell'esplorazione cibernetica; cambiano le coordinate: si possono scoprire nuovi luoghi quanto nuovi tempi e può accadere che siano la stessa cosa.
 
 > «Non sono forse dodici le ore del giorno? Se uno cammina di giorno, non
 inciampa, perché vede la luce di questo mondo; ma se cammina di notte, inciampa,
