@@ -75,7 +75,7 @@ search_full_content: true # can have performance implications for large sites
 #   - vendor/ruby/
 
 plugins:
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
