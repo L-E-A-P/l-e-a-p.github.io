@@ -4,7 +4,7 @@ title: "le domeniche alla periferia dell'impero"
 author: Dio
 excerpt_separator: "<!--more-->"
 categories:
-  - Salti
+  - Saltati
 tags:
   - Workshop
 ---

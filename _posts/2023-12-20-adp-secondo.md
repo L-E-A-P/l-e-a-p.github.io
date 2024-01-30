@@ -3,7 +3,7 @@ title: "archi di pietra, secondo respiro"
 author: Dio
 excerpt_separator: "<!--more-->"
 categories:
-  - Salti
+  - Saltati
 tags:
   - Approdi
 ---

@@ -90,6 +90,8 @@ collections:
     permalink: /:collection/:path/
   salti:
     output: true
+  saltati:
+    output: true
 
 # Front Matter Defaults
 defaults:
@@ -121,6 +123,14 @@ defaults:
   - scope:
       path: "_salti"
       type: salti
+    values:
+      layout: page
+      comments: true
+      share: true
+# Saltati
+  - scope:
+      path: "_saltati"
+      type: saltati
     values:
       layout: page
       comments: true

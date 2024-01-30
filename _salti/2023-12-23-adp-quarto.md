@@ -3,7 +3,7 @@ title: "archi di pietra, quarto respiro"
 author: Dio
 excerpt_separator: "<!--more-->"
 categories:
-  - Salti
+  - salti
 tags:
   - Approdi
 ---
