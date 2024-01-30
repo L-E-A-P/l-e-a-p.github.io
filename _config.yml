@@ -17,7 +17,7 @@
 # remote_theme: mmistakes/so-simple-theme
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
-locale: it-IT
+locale: it
 title: "LEAP"
 description: "Laboratorio ElettroAcustico Permanente"
 # baseurl: "" # the subpath of your site, e.g. "/blog"
