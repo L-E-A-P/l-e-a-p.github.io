@@ -1,7 +1,7 @@
 ---
-image: images/leviatano-hero.jpg
 title: "le domeniche alla periferia dell'impero"
-author: Dio
+layout: postnoauth
+image: images/leviatano-hero.jpg
 excerpt_separator: "<!--more-->"
 categories:
   - Saltati
