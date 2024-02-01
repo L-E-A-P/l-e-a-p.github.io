@@ -6,7 +6,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Saltati
 tags:
-  - Approdi
+  - Bottega
 gallery:
 - url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-01.jpg
   image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-01.jpg
@@ -66,5 +66,8 @@ laboratorio di pratiche acustiche
 > Il suono nello spazio condotto da Zaccone & Silvi / Leap è nell’ambito del
   progetto “L’accessibilità come principio estetico” Avvio alla Terza Missione
   2022 – Sapienza a cura di D’Amico & Ciufo.
+
+ - [The Environment we feel](https://www.shorttheatre.org/the-environment-we-feel/)
+ - [Short Theatre 2023](https://www.teatrodiroma.net/doc/8196/short-theatre-2023)
 
 {% include gallery %}
