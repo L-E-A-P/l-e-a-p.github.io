@@ -1,8 +1,8 @@
 ---
 title: "Primo Respiro"
 image:
-  path: images/archi-di-pietra/2023-11-06-PAX-300.png
-  thumbnail: images/archi-di-pietra/2023-11-06-PAX.png
+  path: archi-di-pietra/src/2023-11-06-PAX/2023-11-06-PAX-300.png
+  thumbnail: archi-di-pietra/src/2023-11-06-PAX/2023-11-06-PAX-72.png
   caption: "Primo Respiro"
 gallery:
   - url: images/archi-di-pietra/2023-11-06-adp-primo-respiro/ac/edit/2023-11-06-adp-01.jpg
@@ -36,5 +36,7 @@ un'analisi di _An Index of Metals_ di **Fausto Romitelli** in vista del concerto
 dell'otto novembre duemilaventitré presso l'_Auditorium Parco della Musica_.
 
 <!--more-->
+
+ - [slides](https://github.com/L-E-A-P/archi-di-pietra/blob/main/doc/2023-11-06-adp-primo-respiro-pax-slides.c.pdf)
 
 {% include gallery %}

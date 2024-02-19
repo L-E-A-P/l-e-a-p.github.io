@@ -1,8 +1,8 @@
 ---
 title: "Terzo Respiro"
 image:
-  path: images/archi-di-pietra/2024-01-20-GALANTE-300.png
-  thumbnail: images/archi-di-pietra/2024-01-20-GALANTE-72.png
+  path: archi-di-pietra/src/2024-01-20-GALANTE/2024-01-20-GALANTE-300.png
+  thumbnail: archi-di-pietra/src/2024-01-20-GALANTE/2024-01-20-GALANTE-72.png
   caption: "Terzo Respiro"
 gallery:
 ---
