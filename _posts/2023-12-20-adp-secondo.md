@@ -1,7 +1,7 @@
 ---
 title: "archi di pietra, secondo respiro"
 layout: postnoauth
-image: images/archi-di-pietra/2024-01-13-VERSO<-PROMETEO-300.png
+image: archi-di-pietra/src/2024-01-13-VERSO<-PROMETEO/2024-01-13-VERSO<-PROMETEO-300.png
 excerpt_separator: "<!--more-->"
 categories:
   - Saltati

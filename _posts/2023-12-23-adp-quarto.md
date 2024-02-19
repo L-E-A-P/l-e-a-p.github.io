@@ -1,6 +1,7 @@
 ---
 title: "archi di pietra, quarto respiro"
-image: images/archi-di-pietra/2024-02-17-PAX-300.png
+layout: postnoauth
+image: archi-di-pietra/src/2024-02-17-PAX/2024-02-17-PAX-300.png
 excerpt_separator: "<!--more-->"
 categories:
   - Saltati
