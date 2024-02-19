@@ -13,6 +13,6 @@ quale abbiamo trovato una storia, di cui egli stesso è enorme letteratura.
 
 <!--more-->
 
-![no-alignment]({{ '/images/archi-di-pietra/galante.jpg' | absolute_url }})
+![no-alignment]({{ 'images/galante.jpg' | absolute_url }})
 
 {% include gallery %}
