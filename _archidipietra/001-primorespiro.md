@@ -37,6 +37,6 @@ dell'otto novembre duemilaventitré presso l'_Auditorium Parco della Musica_.
 
 <!--more-->
 
-### [cliccami]({{ 'archi-di-pietra/doc/2023-11-06-adp-primo-respiro-pax-slides.c.pdf' | absolute_url }})
+### [cliccami]({{ 'archi-di-pietra/doc/2023-11-06-adp-primo-respiro-pax-slides.c.pdf' | absolute_url }}) {: target="_blank" }
 
 {% include gallery %}

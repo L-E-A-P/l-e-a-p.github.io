@@ -68,8 +68,8 @@ messa in scena veneziana, dal ventisei al ventinove gennaio duemilaventiquattro.
 I materiali preparatori alla sessione _archi di pietra, secondo respiro_
 sono accessibili ai seguenti percorsi:
 
-### [cliccami](https://l-e-a-p.github.io/giuseppe/slides/2024-01-13-verso-prometeo-slides.pdf)
+### [cliccami]({{ 'archi-di-pietra/doc/2024-01-13-verso-prometeo-slides.pdf' | absolute_url }}){: target="_blank" }
 
-### [leggimi](https://l-e-a-p.github.io/giuseppe/scritti/verso-prometeo/)
+### [leggimi](https://l-e-a-p.github.io/giuseppe/scritti/verso-prometeo/){: target="_blank" }
 
 {% include gallery %}
