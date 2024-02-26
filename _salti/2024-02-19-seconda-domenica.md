@@ -9,7 +9,7 @@ tags:
   - Workshop
 ---
 
-Domenica ventisei febbraio duemilaventiquattro dalle ore dieci alle ore diciotto
+Domenica venticinque febbraio duemilaventiquattro dalle ore dieci alle ore diciotto
 si terrà il secondo appuntamento del percorso di scrittura creativa condotto dal
 Compositore Francesco Vitucci.
 
