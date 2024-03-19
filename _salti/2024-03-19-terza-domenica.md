@@ -4,13 +4,13 @@ layout: postnoauth
 image: images/leviatano-hero.jpg
 excerpt_separator: "<!--more-->"
 categories:
-  - Saltati
+  - Salti
 tags:
   - Workshop
 ---
 
-Domenica venticinque febbraio duemilaventiquattro dalle ore dieci alle ore diciotto
-si terrà il secondo appuntamento del percorso di scrittura creativa condotto dal
+Domenica ventiquattro marzo duemilaventiquattro dalle ore otto alle ore diciassette
+si terrà il terzo appuntamento del percorso di scrittura creativa condotto dal
 Compositore Francesco Vitucci.
 
 <!--more-->
