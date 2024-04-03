@@ -4,7 +4,7 @@ layout: postnoauth
 image: images/leviatano-hero.jpg
 excerpt_separator: "<!--more-->"
 categories:
-  - Salti
+  - Saltati
 tags:
   - Workshop
 ---
