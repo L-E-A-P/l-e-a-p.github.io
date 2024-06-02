@@ -86,6 +86,9 @@ collections:
   archidipietra:
     output: true
     permalink: /:collection/:path/
+  domeniche:
+    output: true
+    permalink: /:collection/:path/
   lazzaro:
     output: true
     permalink: /:collection/:path/
@@ -116,6 +119,14 @@ defaults:
   - scope:
       path: "_archidipietra"
       type: archidipietra
+    values:
+      layout: project
+      comments: true
+      share: true
+# Domeniche alla periferia dell'impero
+  - scope:
+      path: "_domeniche"
+      type: domeniche
     values:
       layout: project
       comments: true

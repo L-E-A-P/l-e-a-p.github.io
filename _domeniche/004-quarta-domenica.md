@@ -1,19 +1,16 @@
 ---
-title: "le domeniche alla periferia dell'impero"
-layout: postnoauth
-image: images/leviatano-hero.jpg
-excerpt_separator: "<!--more-->"
-categories:
-  - Saltati
-tags:
-  - Workshop
+title: "quarta domenica"
+image:
+  path: images/leviatano-hero.jpg
+  thumbnail:
+  caption:
 gallery:
-- url: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/edit/2024-02-17-adp-01.jpg
-  image_path: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/thumb/2024-02-17-adp-01.jpg
+- url:
+  image_path: 
 ---
 
-Domenica ventiquattro marzo duemilaventiquattro dalle ore otto alle ore diciassette
-si terrà il terzo appuntamento del percorso di scrittura creativa condotto dal
+Domenica ventuno aprile duemilaventiquattro dalle ore otto alle ore diciassette
+si terrà il quarto appuntamento del percorso di scrittura creativa condotto dal
 Compositore Francesco Vitucci.
 
 <!--more-->

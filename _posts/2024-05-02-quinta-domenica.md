@@ -4,16 +4,13 @@ layout: postnoauth
 image: images/leviatano-hero.jpg
 excerpt_separator: "<!--more-->"
 categories:
-  - Saltati
+  - Salti
 tags:
   - Workshop
-gallery:
-- url: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/edit/2024-02-17-adp-01.jpg
-  image_path: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/thumb/2024-02-17-adp-01.jpg
 ---
 
-Domenica ventiquattro marzo duemilaventiquattro dalle ore otto alle ore diciassette
-si terrà il terzo appuntamento del percorso di scrittura creativa condotto dal
+Domenica due giugno duemilaventiquattro dalle ore sette alle ore sedici
+si terrà il quinto appuntamento del percorso di scrittura creativa condotto dal
 Compositore Francesco Vitucci.
 
 <!--more-->
