@@ -4,7 +4,7 @@ layout: postnoauth
 image: archi-di-pietra/src/2024-03-23-ADS/2024-03-23-ADS-300.png
 excerpt_separator: "<!--more-->"
 categories:
-  - Salti
+  - Saltati
 tags:
   - Approdi
 ---

@@ -283,6 +283,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   github-pages
+  jekyll-paginate
   jekyll-target-blank
   jekyll-theme-so-simple!
   rake (>= 12.3.3)
