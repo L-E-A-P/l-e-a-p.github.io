@@ -195,27 +195,62 @@ figure {
 //
 
 .leapers {
-  column-count: 4;
+  display: grid;
+  gap: 2em;
   margin-bottom: 2em;
+
+  // Mobile first: inizia con 1 colonna
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+
+  // Tablet: 2 colonne
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+
+  // Desktop: 3 colonne
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .leaper {
-  break-inside: avoid;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 
+  // Opzionale: altezza uniforme per tutti i leapers
+  // min-height: 300px;
 }
 
 .leaper-avatar {
-  // margin-right: 1em;
   width: 100px;
-  height: auto;
+  height: 100px; // Altezza fissa per uniformità
   border-radius: 50%;
+  object-fit: cover; // Mantiene proporzioni immagine
+  margin-bottom: 0.5em;
 
   @include breakpoint($large) {
-    margin-right: 0;
-    margin-bottom: .5em;
-    width: 100px;
-    height: auto;
+    width: 120px;
+    height: 120px;
   }
+}
+
+.author-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.author-name {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.author-bio {
+  font-style: italic;
+  flex: 1;
 }

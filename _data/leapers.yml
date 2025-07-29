@@ -46,6 +46,13 @@
       url: http://buymeacoffee.com/?via=grammaton
       icon: fas fa-coffee
 
+- Davide:
+  name: Davide Tedesco
+  short: davide
+  email: me@davidetedesco.it
+  picture: images/leo.jpg
+  bio: "Poeta, performer, musicologo. Lancia sampietrini sulle vetrine del mondo."
+
 - Leonardo:
   name: Leonardo Zaccone
   short: leonardo
