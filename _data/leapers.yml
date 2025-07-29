@@ -6,30 +6,14 @@
   short: alice
   email: alicecortegiani@gmail.com
   picture: /images/ac.jpg
-  twitter: ""
   bio: "Sulla soglia dell'immenso non sapere, la garanzia non è finalità."
-  # links:
-    # - title: Twitter
-    #   url: https://twitter.com/giuseppesilvi
-    #   icon: fab fa-twitter-square
-    # - title: buymeacoffee
-    #   url: http://buymeacoffee.com/?via=grammaton
-    #   icon: fas fa-coffee
 
 - Marco:
   name: Marco Di Gasbarro
   short: marco
   email: m.digasbarro@gmail.com
   picture: /images/mdg.jpg
-  # twitter: "@giuseppesilvi"
   bio: "Un percussionista in feedback. Guarda la lente che lo riguarda con riguardo del circostante."
-  # links:
-  #   - title: Twitter
-  #     url: https://twitter.com/giuseppesilvi
-  #     icon: fab fa-twitter-square
-  #   - title: buymeacoffee
-  #     url: http://buymeacoffee.com/?via=grammaton
-  #     icon: fas fa-coffee
 
 - Giuseppe:
   name: Giuseppe Silvi

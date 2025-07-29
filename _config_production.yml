@@ -1,0 +1,58 @@
+# Production configuration override
+# Use with: bundle exec jekyll build --config _config.yml,_config_production.yml
+
+# Production URL
+url: "https://www.leaphz.net"
+
+# Production environment
+environment: production
+
+# Production-specific SEO
+social:
+  type: Organization
+  name: LEAP - Laboratorio ElettroAcustico Permanente
+  links:
+    - https://www.leaphz.net
+    - https://github.com/l-e-a-p
+    - https://t.me/+T6f_6KIRNPszYTQ0
+
+# Update defaults for production canonical URLs
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare-key.png
+      author: LEAP
+      canonical_url: "https://www.leaphz.net"
+      twitter:
+        card: summary_large_image
+
+# Production author configuration
+author:
+  name: LEAP
+  picture: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare.png
+  email: info@leaphz.net  # Consider using production email
+  bio: "Laboratorio ElettroAcustico Permanente"
+  location: "Roma, Italia"
+  url: "https://www.leaphz.net"
+  links:
+    - title: Website
+      url: https://www.leaphz.net
+      icon: fas fa-link
+    - title: GitHub
+      url: https://github.com/l-e-a-p
+      icon: fab fa-github
+    - title: Telegram
+      url: https://t.me/+T6f_6KIRNPszYTQ0
+      icon: fab fa-telegram
+
+# Production optimization
+sass:
+  style: compressed
+
+# Disable development features in production
+show_drafts: false
+unpublished: false
+future: false
+incremental: false
+profile: false

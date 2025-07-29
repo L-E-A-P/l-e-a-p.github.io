@@ -13,33 +13,48 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+
+# Theme configuration
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
+
+# Site identity
 locale: it
+timezone: Europe/Rome
 title: "LEAP"
 description: "Laboratorio ElettroAcustico Permanente"
-# baseurl: "" # the subpath of your site, e.g. "/blog"
-url: "https://L-E-A-P.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare-key.png # path of site logo, e.g. "/images/logo.png"
+url: "https://l-e-a-p.github.io" # GitHub Pages URL for development
+baseurl: "" # the subpath of your site, e.g. "/blog"
+logo: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare-key.png
+
+# Content settings
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true
+words_per_minute: 200
+
+# MathJax configuration
 mathjax:
-  enable: true # MathJax equations, e.g. true, false (default)
-  combo:  "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  "ams" # "none", "ams" (default), "all"
-# google_fonts:
-#   - name: "Source Sans Pro"
-#     weights: "400,400i,700,700i"
-#   - name: "Lora"
-#     weights: "400,400i,700,700i"
-google_analytics: G-QZM89XVDCT # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
+
+# Typography
+google_fonts:
+  - name: "Alegreya Sans"
+    weights: "400,400i"
+  - name: "Alegreya"
+    weights: "400,400i"
+  - name: "Ubuntu Mono"
+    weights: "400,400i"
+
+# Analytics & Comments
+google_analytics: G-QZM89XVDCT
 disqus:
-  shortname: leap-2 # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: leap-2
+
+# Social media
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: # site's Twitter username if you have one
 
 # Liquid
 liquid:
@@ -48,34 +63,38 @@ liquid:
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Feed
 feed:
   path: atom.xml
+  excerpt_only: true
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /saltati/:num/
 
 # Search
-search_full_content: true # can have performance implications for large sites
+search_full_content: true
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# Outputting
+timezone: Europe/Rome
+
+# Plugins
 plugins:
-  # - jekyll-seo-tag
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
@@ -83,6 +102,12 @@ plugins:
 
 # Collections
 collections:
+  salti:
+    output: true
+    permalink: /:collection/:title/
+  saltati:
+    output: true
+    permalink: /:collection/:title/
   archidipietra:
     output: true
     permalink: /:collection/:path/
@@ -92,14 +117,19 @@ collections:
   lazzaro:
     output: true
     permalink: /:collection/:path/
-  salti:
-    output: true
-  saltati:
-    output: true
 
 # Front Matter Defaults
 defaults:
-# Post defaults
+  # Global defaults
+  - scope:
+      path: ""
+    values:
+      # image: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare-key.png // HERO HOME PAGE
+      author: LEAP
+      twitter:
+        card: summary_large_image
+
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
@@ -107,7 +137,11 @@ defaults:
       layout: post
       comments: true
       share: true
-# Lazzaro
+      author: LEAP
+      show_date: true
+      read_time: true
+
+  # Lazzaro collection
   - scope:
       path: "_lazzaro"
       type: lazzaro
@@ -115,7 +149,9 @@ defaults:
       layout: project
       comments: true
       share: true
-# Archi di pietra defaults
+      author: LEAP
+
+  # Archi di pietra collection
   - scope:
       path: "_archidipietra"
       type: archidipietra
@@ -123,7 +159,9 @@ defaults:
       layout: project
       comments: true
       share: true
-# Domeniche alla periferia dell'impero
+      author: LEAP
+
+  # Domeniche collection
   - scope:
       path: "_domeniche"
       type: domeniche
@@ -131,7 +169,9 @@ defaults:
       layout: project
       comments: true
       share: true
-# Salti
+      author: LEAP
+
+  # Salti collection
   - scope:
       path: "_salti"
       type: salti
@@ -139,7 +179,9 @@ defaults:
       layout: page
       comments: true
       share: true
-# Saltati
+      author: LEAP
+
+  # Saltati collection
   - scope:
       path: "_saltati"
       type: saltati
@@ -147,17 +189,22 @@ defaults:
       layout: page
       comments: true
       share: true
+      author: LEAP
 
 # Site Author
 author:
   name: LEAP
   picture: https://raw.githubusercontent.com/L-E-A-P/logo/main/2023-11-21-logo-web-sqare.png
   email: grammaton@me.com
-  twitter:
+  bio: "Laboratorio ElettroAcustico Permanente"
+  location: "Roma, Italia"
   links:
-    - title:
-      url:
-      icon:
+    - title: GitHub
+      url: https://github.com/l-e-a-p
+      icon: fab fa-github
+    - title: Telegram
+      url: https://t.me/+T6f_6KIRNPszYTQ0
+      icon: fab fa-telegram
 
 # Footer Links
 footer_links:
@@ -170,3 +217,33 @@ footer_links:
   - title: GitHub
     url: https://github.com/l-e-a-p
     icon: fab fa-github-square
+
+# Social configuration for SEO
+social:
+  type: Organization
+  name: LEAP - Laboratorio ElettroAcustico Permanente
+  links:
+    - https://github.com/l-e-a-p
+    - https://t.me/+T6f_6KIRNPszYTQ0
+
+# SEO settings
+lang: it
+twitter:
+  username: # Add if you get a Twitter account
+  card: summary_large_image
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - leap-web.txt
+  - README.md
+  - LICENSE
