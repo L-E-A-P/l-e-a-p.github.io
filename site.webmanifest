@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "LEAP - Laboratorio ElettroAcustico Permanente",
+    "short_name": "LEAP",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#230031",
+    "background_color": "#230031",
     "display": "standalone"
 }
