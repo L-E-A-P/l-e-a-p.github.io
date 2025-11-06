@@ -16,7 +16,7 @@
 
 # Theme configuration
 # remote_theme: "mmistakes/so-simple-theme@3.2.0"
-remote_theme: "so-leap-theme"
+remote_theme: "L-E-A-P/so-leap-theme"
 skin: "/assets/css/skins/dark.css"
 
 # Site identity
