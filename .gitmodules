@@ -7,3 +7,12 @@
 [submodule "alice"]
 	path = alice
 	url = git@github.com:L-E-A-P/alice.git
+[submodule "marco"]
+	path = marco
+	url = git@github.com:L-E-A-P/marco.git
+[submodule "leonardo"]
+	path = leonardo
+	url = git@github.com:L-E-A-P/leonardo.git
+[submodule "davide"]
+	path = davide
+	url = git@github.com:grammaton/davide.git
