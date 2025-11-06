@@ -1,18 +1,3 @@
 [submodule "archi-di-pietra"]
 	path = archi-di-pietra
 	url = https://github.com/L-E-A-P/archi-di-pietra.git
-[submodule "giuseppe"]
-	path = giuseppe
-	url = git@github.com:L-E-A-P/giuseppe.git
-[submodule "alice"]
-	path = alice
-	url = git@github.com:L-E-A-P/alice.git
-[submodule "marco"]
-	path = marco
-	url = git@github.com:L-E-A-P/marco.git
-[submodule "leonardo"]
-	path = leonardo
-	url = git@github.com:L-E-A-P/leonardo.git
-[submodule "davide"]
-	path = davide
-	url = git@github.com:grammaton/davide.git
