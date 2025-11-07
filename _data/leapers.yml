@@ -8,34 +8,37 @@
   picture: /images/ac.jpg
   bio: "Sulla soglia dell'immenso non sapere, la garanzia non è finalità."
 
-- Marco:
-  name: Marco Di Gasbarro
-  short: marco
-  email: m.digasbarro@gmail.com
-  picture: /images/mdg.jpg
-  bio: "Un percussionista in feedback. Guarda la lente che lo riguarda con riguardo del circostante."
-
-- Giuseppe:
-  name: Giuseppe Silvi
-  short: giuseppe
-  email: grammaton@me.com
-  picture: /images/gs.jpg
-  twitter: "@giuseppesilvi"
-  bio: "Maestro di difesa contro le arti oscure. Inizia ad udire in età prenatale. Sente dall'età di 27 anni ma punta con rispetto ad ascoltare."
-  links:
-    - title: Twitter
-      url: https://twitter.com/giuseppesilvi
-      icon: fab fa-twitter-square
-    - title: buymeacoffee
-      url: http://buymeacoffee.com/?via=grammaton
-      icon: fas fa-coffee
-
 - Davide:
   name: Davide Tedesco
   short: davide
   email: me@davidetedesco.it
   picture: images/dt.png
   bio: "Davide Tedesco."
+
+- Francesco:
+  name: Francesco Ferracuti
+  short: francesco
+  email: ferracutifrancesco.00@gmail.com
+  picture: images/ff.jpg
+  bio: "FranFerr."
+
+- Giuseppe:
+  name: Giuseppe Silvi
+  short: giuseppe
+  email: grammaton@me.com
+  picture: /images/gs.jpg
+  bio: "Maestro di difesa contro le arti oscure. Inizia ad udire in età prenatale. Sente dall'età di 27 anni ma punta con rispetto ad ascoltare."
+  links:
+    - title: buymeacoffee
+      url: http://buymeacoffee.com/grammaton
+      icon: fas fa-coffee
+
+- Marco:
+  name: Marco Di Gasbarro
+  short: marco
+  email: m.digasbarro@gmail.com
+  picture: /images/mdg.jpg
+  bio: "Un percussionista in feedback. Guarda la lente che lo riguarda con riguardo del circostante."
 
 - Leonardo:
   name: Leonardo Zaccone
