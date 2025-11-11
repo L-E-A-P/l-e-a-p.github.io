@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/l-e-a-p/so-leap-theme
-  revision: 85ced9b24382f115f0d8d575501c1a65a1089a22
+  revision: a97df785c1b801fb25a65268e8f0544d37d1b7ae
   specs:
     so-leap-theme (3.2.0)
       jekyll (>= 3.6, < 5.0)
