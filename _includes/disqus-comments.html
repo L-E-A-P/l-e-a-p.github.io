@@ -1,4 +1,7 @@
-<script src="https://giscus.app/client.js"
+{% if page.comments != false and jekyll.environment == "production" %}
+  <div class="page-comments">
+    <div id="giscus_thread"></div>
+    <script src="https://giscus.app/client.js"
         data-repo="L-E-A-P/l-e-a-p.github.io"
         data-repo-id="R_kgDOJvUkXA"
         data-category="General"
@@ -7,9 +10,12 @@
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="bottom"
+        data-input-position="top"
         data-theme="purple_dark"
         data-lang="it"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script>
+    </script>
+  </div>
+{% endif %}
