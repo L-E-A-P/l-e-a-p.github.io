@@ -103,10 +103,7 @@ collections:
   salti:
     output: true
     permalink: /:collection/:title/
-  # saltati:  # Commentato - collezione vuota
-  #   output: true
-  #   permalink: /:collection/:title/
-  archidipietra:
+  archi-di-pietra:
     output: true
     permalink: /:collection/:path/
   bottega:
@@ -155,7 +152,7 @@ defaults:
   # Archi di pietra collection
   - scope:
       path: "_archi-di-pietra/web"
-      type: archidipietra
+      type: archi-di-pietra
     values:
       layout: project
       comments: true
