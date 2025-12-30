@@ -164,7 +164,7 @@ defaults:
 
   # Bottega
   - scope:
-      path: "bottega"
+      path: "_bottega"
       type: bottega
     values:
       layout: project
