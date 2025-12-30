@@ -1,6 +1,6 @@
-[submodule "archi-di-pietra"]
-	path = archi-di-pietra
-	url = https://github.com/L-E-A-P/archi-di-pietra.git
 [submodule "_bottega"]
 	path = _bottega
 	url = git@github.com:L-E-A-P/_bottega.git
+[submodule "_archi-di-pietra"]
+	path = _archi-di-pietra
+	url = git@github.com:L-E-A-P/_archi-di-pietra.git

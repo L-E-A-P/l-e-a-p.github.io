@@ -154,7 +154,7 @@ defaults:
 
   # Archi di pietra collection
   - scope:
-      path: "_archidipietra"
+      path: "_archi-di-pietra/web"
       type: archidipietra
     values:
       layout: project
