@@ -162,6 +162,16 @@ defaults:
       share: true
       author: LEAP
 
+  # Bottega
+  - scope:
+      path: "bottega"
+      type: bottega
+    values:
+      layout: project
+      comments: true
+      share: true
+      author: LEAP
+
   # Domeniche collection
   - scope:
       path: "_domeniche"
