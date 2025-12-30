@@ -4,7 +4,7 @@ layout: collection
 entries_layout: grid
 permalink: /lazzaro/
 collection: lazzaro
-image: images/lazzaro/lazzaro-hero.jpg
+image: lazzaro/img/lazzaro-hero.jpg
 ---
 
 LAZZARO prende forma tra i componenti del LEAP dalla necessità di una pratica

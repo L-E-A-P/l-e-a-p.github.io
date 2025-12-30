@@ -141,7 +141,7 @@ defaults:
 
   # Lazzaro collection
   - scope:
-      path: "_lazzaro"
+      path: "_lazzaro/web"
       type: lazzaro
     values:
       layout: project

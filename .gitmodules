@@ -4,3 +4,6 @@
 [submodule "_archi-di-pietra"]
 	path = _archi-di-pietra
 	url = git@github.com:L-E-A-P/_archi-di-pietra.git
+[submodule "_lazzaro"]
+	path = _lazzaro
+	url = git@github.com:L-E-A-P/_lazzaro.git
