@@ -6,5 +6,3 @@ permalink: /bottega/
 collection: bottega
 image: bottega/img/bottega-hero.jpg
 ---
-
-# Mario Bertoncini

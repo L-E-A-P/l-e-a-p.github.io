@@ -109,6 +109,9 @@ collections:
   archidipietra:
     output: true
     permalink: /:collection/:path/
+  bottega:
+    output: true
+    permalink: /:collection/:path/
   domeniche:
     output: true
     permalink: /:collection/:path/
