@@ -7,4 +7,4 @@ collection: bottega
 image: bottega/img/bottega-hero.jpg
 ---
 
-Ciccio Pizza
+# Mario Bertoncini
