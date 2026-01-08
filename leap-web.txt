@@ -1,0 +1,1983 @@
+.
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── Rakefile
+├── _archidipietra
+│   ├── 001-primorespiro.md
+│   ├── 002-secondorespiro.md
+│   ├── 003-terzorespiro.md
+│   ├── 004-quartorespiro.md
+│   ├── 005-quintorespiro.md
+│   └── _no
+├── _config.yml
+├── _data
+│   ├── authors.yml
+│   ├── leapers.yml
+│   ├── navigation.yml
+│   └── text.yml
+├── _domeniche
+│   ├── 001-prima-domenica.md
+│   ├── 002-seconda-domenica.md
+│   ├── 003-terza-domenica.md
+│   ├── 004-quarta-domenica.md
+│   ├── 005-quinta-domenica.md
+│   └── img
+│       └── 2024-06-01
+│           ├── FullSizeRender 10.HEIC
+│           ├── FullSizeRender 11.HEIC
+│           ├── FullSizeRender 2.HEIC
+│           ├── FullSizeRender 3.HEIC
+│           ├── FullSizeRender 4.HEIC
+│           ├── FullSizeRender 5.HEIC
+│           ├── FullSizeRender 6.HEIC
+│           ├── FullSizeRender 7.HEIC
+│           ├── FullSizeRender 8.HEIC
+│           ├── FullSizeRender 9.HEIC
+│           ├── FullSizeRender.HEIC
+│           ├── IMG_7619.HEIC
+│           ├── IMG_7630.HEIC
+│           ├── IMG_7632.HEIC
+│           ├── IMG_7635.HEIC
+│           ├── IMG_7641.HEIC
+│           ├── IMG_7649.HEIC
+│           ├── IMG_7653.HEIC
+│           ├── IMG_7665.HEIC
+│           ├── IMG_7666.HEIC
+│           ├── IMG_7671.HEIC
+│           ├── IMG_7673.HEIC
+│           ├── IMG_7689.HEIC
+│           ├── IMG_7805.HEIC
+│           ├── IMG_7821.HEIC
+│           ├── IMG_7823.HEIC
+│           ├── IMG_7825.HEIC
+│           ├── IMG_7830.HEIC
+│           ├── IMG_7840.HEIC
+│           ├── IMG_7841.HEIC
+│           ├── IMG_7844.HEIC
+│           ├── IMG_7846.HEIC
+│           ├── IMG_7847.HEIC
+│           ├── IMG_7849.HEIC
+│           ├── IMG_7859.HEIC
+│           ├── IMG_7860.HEIC
+│           ├── IMG_7861.HEIC
+│           ├── IMG_7864.HEIC
+│           ├── IMG_7865.HEIC
+│           ├── IMG_7867.HEIC
+│           ├── IMG_7876.HEIC
+│           ├── IMG_7878.HEIC
+│           ├── IMG_7880.HEIC
+│           ├── IMG_7883.HEIC
+│           ├── IMG_7886.HEIC
+│           ├── IMG_7888.HEIC
+│           ├── IMG_7889.HEIC
+│           ├── IMG_7893.HEIC
+│           ├── IMG_7896.HEIC
+│           ├── IMG_7899.HEIC
+│           ├── IMG_7900.HEIC
+│           ├── IMG_7902.HEIC
+│           ├── IMG_7903.HEIC
+│           ├── IMG_7906.HEIC
+│           ├── IMG_7907.HEIC
+│           ├── IMG_7908.HEIC
+│           ├── IMG_7912.HEIC
+│           ├── IMG_7913.HEIC
+│           ├── IMG_7914.HEIC
+│           └── IMG_7916.HEIC
+├── _includes
+│   ├── disqus-comments.html
+│   ├── documents-collection.html
+│   ├── entry-date.html
+│   ├── entry.html
+│   ├── footer-custom.html
+│   ├── footer.html
+│   ├── gallery
+│   ├── google-analytics.html
+│   ├── head-custom.html
+│   ├── head-feed.html
+│   ├── head-seo.html
+│   ├── head.html
+│   ├── home-leapers.html
+│   ├── home-saltati.html
+│   ├── home-salti.html
+│   ├── lunr-search-scripts.html
+│   ├── masthead.html
+│   ├── navigation.html
+│   ├── page-author.html
+│   ├── page-categories.html
+│   ├── page-date.html
+│   ├── page-image.html
+│   ├── page-pagination.html
+│   ├── page-tags.html
+│   ├── posts-all.html
+│   ├── posts-category.html
+│   ├── posts-limit.html
+│   ├── posts-paginated.html
+│   ├── posts-tag.html
+│   ├── read-time.html
+│   ├── responsive-embed
+│   ├── scripts.html
+│   ├── skip-links.html
+│   ├── social-share.html
+│   └── toc
+├── _layouts
+│   ├── categories.html
+│   ├── category.html
+│   ├── collection.html
+│   ├── default.html
+│   ├── home.html
+│   ├── page.html
+│   ├── post.html
+│   ├── postnoauth.html
+│   ├── posts.html
+│   ├── project.html
+│   ├── search.html
+│   ├── tag.html
+│   └── tags.html
+├── _lazzaro
+│   ├── 2023-07-12-roma.md
+│   ├── 2023-09-03-roma.md
+│   └── 2023-10-11-latina.md
+├── _posts
+│   ├── 2023-09-11-shorttheatre.md
+│   ├── 2023-11-06-adp-primo.md
+│   ├── 2023-12-05-calderone.md
+│   ├── 2023-12-20-adp-secondo.md
+│   ├── 2023-12-21-adp-terzo.md
+│   ├── 2023-12-22-prima-domenica.md
+│   ├── 2023-12-23-adp-quarto.md
+│   ├── 2024-02-19-seconda-domenica.md
+│   ├── 2024-03-19-adp-quinto.md
+│   ├── 2024-03-19-terza-domenica.md
+│   ├── 2024-04-03-mmm-ae3.md
+│   ├── 2024-04-03-quarta-domenica.md
+│   ├── 2024-05-02-quinta-domenica.md
+│   ├── 2024-06-17-LAZZARO-130724.md
+│   ├── 2024-09-18-DOMENICHE-LIVE.md
+│   ├── 2024-10-10-LAZZARO-EAQ.md
+│   ├── 2024-10-11-LAZZARO-EAQ.md
+│   ├── 2024-12-19-PELANDA.md
+│   ├── 2025-04-29-ASC.md
+│   └── _no
+│       ├── 2021-02-21-moble-locale.md
+│       ├── 2021-07-07-as-pplpd-dialogue.md
+│       ├── 2022-03-02-nc.md
+│       ├── 2022-05-07-feldman.md
+│       ├── 2022-09-28-epitaffio.md
+│       ├── 2023-07-01-giallone.md
+│       └── 2023-12-10-tbdc.md
+├── _salti
+│   └── _no
+│       └── 2023-12-24-LEAP-YEAR.md
+├── _sass
+│   ├── so-simple
+│   │   ├── _author.scss
+│   │   ├── _base.scss
+│   │   ├── _buttons.scss
+│   │   ├── _entries.scss
+│   │   ├── _functions.scss
+│   │   ├── _global.scss
+│   │   ├── _icons.scss
+│   │   ├── _mixins.scss
+│   │   ├── _notices.scss
+│   │   ├── _page.scss
+│   │   ├── _reset.scss
+│   │   ├── _skin.scss
+│   │   ├── _syntax-highlighting.scss
+│   │   ├── _tables.scss
+│   │   ├── _utilities.scss
+│   │   ├── _variables.scss
+│   │   ├── functions
+│   │   │   ├── _color.scss
+│   │   │   ├── _em.scss
+│   │   │   ├── _fluid-type.scss
+│   │   │   └── _yiq.scss
+│   │   ├── mixins
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _float.scss
+│   │   │   ├── _image.scss
+│   │   │   ├── _lists.scss
+│   │   │   └── _text-truncate.scss
+│   │   ├── utilities
+│   │   │   ├── _accessibility.scss
+│   │   │   ├── _align.scss
+│   │   │   ├── _animations.scss
+│   │   │   ├── _clearfix.scss
+│   │   │   ├── _float.scss
+│   │   │   ├── _responsive-embed.scss
+│   │   │   └── _text.scss
+│   │   └── vendor
+│   │       ├── breakpoint
+│   │       │   ├── _breakpoint.scss
+│   │       │   ├── _context.scss
+│   │       │   ├── _helpers.scss
+│   │       │   ├── _legacy-settings.scss
+│   │       │   ├── _no-query.scss
+│   │       │   ├── _parsers.scss
+│   │       │   ├── _respond-to.scss
+│   │       │   ├── _settings.scss
+│   │       │   └── parsers
+│   │       │       ├── _double.scss
+│   │       │       ├── _query.scss
+│   │       │       ├── _resolution.scss
+│   │       │       ├── _single.scss
+│   │       │       ├── _triple.scss
+│   │       │       ├── double
+│   │       │       │   ├── _default-pair.scss
+│   │       │       │   ├── _default.scss
+│   │       │       │   └── _double-string.scss
+│   │       │       ├── resolution
+│   │       │       │   └── _resolution.scss
+│   │       │       ├── single
+│   │       │       │   └── _default.scss
+│   │       │       └── triple
+│   │       │           └── _default.scss
+│   │       └── lity
+│   │           └── _lity.scss
+│   └── so-simple.scss
+├── _site
+│   ├── LICENSE
+│   ├── README.md
+│   ├── Rakefile
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── archi-di-pietra
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── doc
+│   │   │   ├── 2023-11-06-adp-primo-respiro-pax-slides.c.pdf
+│   │   │   └── 2024-01-13-verso-prometeo-slides.pdf
+│   │   ├── img
+│   │   │   ├── 2023-11-06-adp-primo-respiro
+│   │   │   │   ├── ac
+│   │   │   │   │   ├── edit
+│   │   │   │   │   │   ├── 2023-11-06-adp-01.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-02.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-03.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-04.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-05.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-06.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-07.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-08.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-09.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-10.jpg
+│   │   │   │   │   │   ├── 2023-11-06-adp-11.jpg
+│   │   │   │   │   │   └── 2023-11-06-adp-12.jpg
+│   │   │   │   │   ├── org
+│   │   │   │   │   │   ├── 2023-11-06-001-3134.jpg
+│   │   │   │   │   │   ├── 2023-11-06-002-3040.jpg
+│   │   │   │   │   │   ├── 2023-11-06-003-3066.jpg
+│   │   │   │   │   │   ├── 2023-11-06-004-3050.jpg
+│   │   │   │   │   │   ├── 2023-11-06-005-3095.jpg
+│   │   │   │   │   │   ├── 2023-11-06-006-3084.jpg
+│   │   │   │   │   │   ├── 2023-11-06-007-3146.jpg
+│   │   │   │   │   │   ├── 2023-11-06-008-3125.jpg
+│   │   │   │   │   │   ├── 2023-11-06-009-3120.jpg
+│   │   │   │   │   │   ├── 2023-11-06-010-3113.jpg
+│   │   │   │   │   │   ├── 2023-11-06-011-3035.jpg
+│   │   │   │   │   │   └── 2023-11-06-012-3137.jpg
+│   │   │   │   │   └── thumb
+│   │   │   │   │       ├── 2023-11-06-adp-01.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-02.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-03.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-04.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-05.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-06.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-07.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-08.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-09.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-10.jpg
+│   │   │   │   │       ├── 2023-11-06-adp-11.jpg
+│   │   │   │   │       └── 2023-11-06-adp-12.jpg
+│   │   │   │   ├── dt
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-001.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-002.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-003.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-004.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-005.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-006.jpeg
+│   │   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-007.jpeg
+│   │   │   │   │   └── 2023-11-06-adp-primo-respiro-dt-008.jpeg
+│   │   │   │   ├── gmd
+│   │   │   │   │   └── 2023-11-06-adp-primo-respiro-gmd-001.jpeg
+│   │   │   │   ├── lz
+│   │   │   │   │   └── 2023-11-06-adp-primo-respiro-lz-001.jpeg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2023-11-06-001-3134.jpg
+│   │   │   │       ├── 2023-11-06-002-3040.jpg
+│   │   │   │       ├── 2023-11-06-003-3066.jpg
+│   │   │   │       ├── 2023-11-06-004-3050.jpg
+│   │   │   │       ├── 2023-11-06-005-3095.jpg
+│   │   │   │       ├── 2023-11-06-006-3084.jpg
+│   │   │   │       ├── 2023-11-06-007-3146.jpg
+│   │   │   │       ├── 2023-11-06-008-3125.jpg
+│   │   │   │       ├── 2023-11-06-009-3120.jpg
+│   │   │   │       ├── 2023-11-06-010-3113.jpg
+│   │   │   │       ├── 2023-11-06-011-3035.jpg
+│   │   │   │       └── 2023-11-06-012-3137.jpg
+│   │   │   ├── 2024-01-13-adp-secondo-respiro
+│   │   │   │   └── ac
+│   │   │   │       ├── edit
+│   │   │   │       │   ├── 2024-01-13-adp-01.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-02.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-03.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-04.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-05.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-06.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-07.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-08.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-09.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-10.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-11.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-12.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-13.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-14.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-15.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-16.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-17.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-18.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-19.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-20.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-21.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-22.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-23.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-24.jpg
+│   │   │   │       │   ├── 2024-01-13-adp-25.jpg
+│   │   │   │       │   └── 2024-01-13-adp-26.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   ├── IMG_4420.jpg
+│   │   │   │       │   ├── IMG_4428.jpg
+│   │   │   │       │   ├── IMG_4436.jpg
+│   │   │   │       │   ├── IMG_4440.jpg
+│   │   │   │       │   ├── IMG_4455.jpg
+│   │   │   │       │   ├── IMG_4458.jpg
+│   │   │   │       │   ├── IMG_4462.jpg
+│   │   │   │       │   ├── IMG_4472.jpg
+│   │   │   │       │   ├── IMG_4474.jpg
+│   │   │   │       │   ├── IMG_4475.jpg
+│   │   │   │       │   ├── IMG_4493.jpg
+│   │   │   │       │   ├── IMG_4496.jpg
+│   │   │   │       │   ├── IMG_4500.jpg
+│   │   │   │       │   ├── IMG_4519.jpg
+│   │   │   │       │   ├── IMG_4529.jpg
+│   │   │   │       │   ├── IMG_4533.jpg
+│   │   │   │       │   ├── IMG_4534.jpg
+│   │   │   │       │   ├── IMG_4545.jpg
+│   │   │   │       │   ├── IMG_4547.jpg
+│   │   │   │       │   ├── IMG_4549.jpg
+│   │   │   │       │   ├── IMG_4562.jpg
+│   │   │   │       │   ├── IMG_4566.jpg
+│   │   │   │       │   ├── IMG_4580.jpg
+│   │   │   │       │   ├── IMG_4581.jpg
+│   │   │   │       │   ├── IMG_4588.jpg
+│   │   │   │       │   └── IMG_4593.jpg
+│   │   │   │       └── thumb
+│   │   │   │           ├── 2024-01-13-adp-01.jpg
+│   │   │   │           ├── 2024-01-13-adp-02.jpg
+│   │   │   │           ├── 2024-01-13-adp-03.jpg
+│   │   │   │           ├── 2024-01-13-adp-04.jpg
+│   │   │   │           ├── 2024-01-13-adp-05.jpg
+│   │   │   │           ├── 2024-01-13-adp-06.jpg
+│   │   │   │           ├── 2024-01-13-adp-07.jpg
+│   │   │   │           ├── 2024-01-13-adp-08.jpg
+│   │   │   │           ├── 2024-01-13-adp-09.jpg
+│   │   │   │           ├── 2024-01-13-adp-10.jpg
+│   │   │   │           ├── 2024-01-13-adp-11.jpg
+│   │   │   │           ├── 2024-01-13-adp-12.jpg
+│   │   │   │           ├── 2024-01-13-adp-13.jpg
+│   │   │   │           ├── 2024-01-13-adp-14.jpg
+│   │   │   │           ├── 2024-01-13-adp-15.jpg
+│   │   │   │           ├── 2024-01-13-adp-16.jpg
+│   │   │   │           ├── 2024-01-13-adp-17.jpg
+│   │   │   │           ├── 2024-01-13-adp-18.jpg
+│   │   │   │           ├── 2024-01-13-adp-19.jpg
+│   │   │   │           ├── 2024-01-13-adp-20.jpg
+│   │   │   │           ├── 2024-01-13-adp-21.jpg
+│   │   │   │           ├── 2024-01-13-adp-22.jpg
+│   │   │   │           ├── 2024-01-13-adp-23.jpg
+│   │   │   │           ├── 2024-01-13-adp-24.jpg
+│   │   │   │           ├── 2024-01-13-adp-25.jpg
+│   │   │   │           └── 2024-01-13-adp-26.jpg
+│   │   │   ├── 2024-01-20-adp-terzo-respiro
+│   │   │   │   ├── ac
+│   │   │   │   │   ├── edit
+│   │   │   │   │   │   ├── 2024-01-20-adp-01.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-02.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-03.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-04.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-05.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-06.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-07.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-08.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-09.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-10.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-11.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-12.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-13.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-14.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-15.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-16.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-17.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-18.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-19.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-20.jpg
+│   │   │   │   │   │   ├── 2024-01-20-adp-21.jpg
+│   │   │   │   │   │   └── 2024-01-20-adp-22.jpg
+│   │   │   │   │   ├── org
+│   │   │   │   │   │   ├── IMG_4730.jpg
+│   │   │   │   │   │   ├── IMG_4736.jpg
+│   │   │   │   │   │   ├── IMG_4754.jpg
+│   │   │   │   │   │   ├── IMG_4766.jpg
+│   │   │   │   │   │   ├── IMG_4775.jpg
+│   │   │   │   │   │   ├── IMG_4783.jpg
+│   │   │   │   │   │   ├── IMG_4811.jpg
+│   │   │   │   │   │   ├── IMG_4812.jpg
+│   │   │   │   │   │   ├── IMG_4840.jpg
+│   │   │   │   │   │   ├── IMG_4855.jpg
+│   │   │   │   │   │   ├── IMG_4862.jpg
+│   │   │   │   │   │   ├── IMG_4874.jpg
+│   │   │   │   │   │   ├── IMG_4902.jpg
+│   │   │   │   │   │   ├── IMG_4907.jpg
+│   │   │   │   │   │   ├── IMG_4911.jpg
+│   │   │   │   │   │   ├── IMG_4912.jpg
+│   │   │   │   │   │   ├── IMG_4917.jpg
+│   │   │   │   │   │   ├── IMG_4918.jpg
+│   │   │   │   │   │   ├── IMG_4931.jpg
+│   │   │   │   │   │   ├── IMG_4934.jpg
+│   │   │   │   │   │   ├── IMG_4935.jpg
+│   │   │   │   │   │   └── IMG_4941.jpg
+│   │   │   │   │   └── thumb
+│   │   │   │   │       ├── 2024-01-20-adp-01.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-02.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-03.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-04.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-05.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-06.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-07.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-08.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-09.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-10.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-11.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-12.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-13.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-14.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-15.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-16.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-17.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-18.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-19.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-20.jpg
+│   │   │   │   │       ├── 2024-01-20-adp-21.jpg
+│   │   │   │   │       └── 2024-01-20-adp-22.jpg
+│   │   │   │   ├── dt
+│   │   │   │   │   ├── edit
+│   │   │   │   │   │   ├── 2024-01-20-adp-01.JPG
+│   │   │   │   │   │   ├── 2024-01-20-adp-02.JPG
+│   │   │   │   │   │   └── 2024-01-20-adp-03.JPG
+│   │   │   │   │   ├── org
+│   │   │   │   │   │   ├── IMG_5504.JPG
+│   │   │   │   │   │   ├── IMG_5506.JPG
+│   │   │   │   │   │   └── IMG_5507.JPG
+│   │   │   │   │   └── thumb
+│   │   │   │   │       ├── 2024-01-20-adp-01.JPG
+│   │   │   │   │       ├── 2024-01-20-adp-02.JPG
+│   │   │   │   │       └── 2024-01-20-adp-03.JPG
+│   │   │   │   └── gs
+│   │   │   │       ├── edit
+│   │   │   │       │   └── 2024-01-20-adp-01.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   └── IMG_6572.jpg
+│   │   │   │       └── thumb
+│   │   │   │           └── 2024-01-20-adp-01.jpg
+│   │   │   └── 2024-02-17-adp-quarto-respiro
+│   │   │       ├── ac
+│   │   │       │   ├── edit
+│   │   │       │   │   ├── 2024-02-17-adp-01.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-02.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-03.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-04.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-05.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-06.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-07.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-08.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-09.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-10.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-11.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-12.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-13.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-14.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-15.jpg
+│   │   │       │   │   ├── 2024-02-17-adp-16.jpg
+│   │   │       │   │   └── 2024-02-17-adp-17.jpg
+│   │   │       │   ├── org
+│   │   │       │   │   ├── IMG_5384.jpg
+│   │   │       │   │   ├── IMG_5401.jpg
+│   │   │       │   │   ├── IMG_5404.jpg
+│   │   │       │   │   ├── IMG_5408.jpg
+│   │   │       │   │   ├── IMG_5414.jpg
+│   │   │       │   │   ├── IMG_5417.jpg
+│   │   │       │   │   ├── IMG_5430.jpg
+│   │   │       │   │   ├── IMG_5440.jpg
+│   │   │       │   │   ├── IMG_5448.jpg
+│   │   │       │   │   ├── IMG_5450.jpg
+│   │   │       │   │   ├── IMG_5462.jpg
+│   │   │       │   │   ├── IMG_5465.jpg
+│   │   │       │   │   ├── IMG_5474.jpg
+│   │   │       │   │   ├── IMG_5480.jpg
+│   │   │       │   │   ├── IMG_5483.jpg
+│   │   │       │   │   ├── IMG_5486.jpg
+│   │   │       │   │   └── IMG_5488.jpg
+│   │   │       │   └── thumb
+│   │   │       │       ├── 2024-02-17-adp-01.jpg
+│   │   │       │       ├── 2024-02-17-adp-02.jpg
+│   │   │       │       ├── 2024-02-17-adp-03.jpg
+│   │   │       │       ├── 2024-02-17-adp-04.jpg
+│   │   │       │       ├── 2024-02-17-adp-05.jpg
+│   │   │       │       ├── 2024-02-17-adp-06.jpg
+│   │   │       │       ├── 2024-02-17-adp-07.jpg
+│   │   │       │       ├── 2024-02-17-adp-08.jpg
+│   │   │       │       ├── 2024-02-17-adp-09.jpg
+│   │   │       │       ├── 2024-02-17-adp-10.jpg
+│   │   │       │       ├── 2024-02-17-adp-11.jpg
+│   │   │       │       ├── 2024-02-17-adp-12.jpg
+│   │   │       │       ├── 2024-02-17-adp-13.jpg
+│   │   │       │       ├── 2024-02-17-adp-14.jpg
+│   │   │       │       ├── 2024-02-17-adp-15.jpg
+│   │   │       │       ├── 2024-02-17-adp-16.jpg
+│   │   │       │       └── 2024-02-17-adp-17.jpg
+│   │   │       └── dt
+│   │   │           ├── edit
+│   │   │           │   ├── 2024-02-17-adp-01.png
+│   │   │           │   ├── 2024-02-17-adp-02.png
+│   │   │           │   ├── 2024-02-17-adp-03.png
+│   │   │           │   ├── 2024-02-17-adp-04.png
+│   │   │           │   └── 2024-02-17-adp-05.png
+│   │   │           ├── org
+│   │   │           │   ├── 2024-02-19 20-56-41-0.png
+│   │   │           │   ├── 2024-02-19 20-56-41-1.png
+│   │   │           │   ├── 2024-02-19 20-56-41-2.png
+│   │   │           │   ├── 2024-02-19 20-56-41-3.png
+│   │   │           │   └── 2024-02-19 20-56-41-4.png
+│   │   │           └── thumb
+│   │   │               ├── 2024-02-17-adp-01.png
+│   │   │               ├── 2024-02-17-adp-02.png
+│   │   │               ├── 2024-02-17-adp-03.png
+│   │   │               ├── 2024-02-17-adp-04.png
+│   │   │               └── 2024-02-17-adp-05.png
+│   │   ├── index.html
+│   │   └── src
+│   │       ├── 2023-11-06-PAX
+│   │       │   ├── 2023-11-06-PAX-300.png
+│   │       │   ├── 2023-11-06-PAX-72.png
+│   │       │   ├── 2023-11-06-PAX.pdf
+│   │       │   └── 2023-11-06-PAX.tex
+│   │       ├── 2024-01-13-VERSO<-PROMETEO
+│   │       │   ├── 2024-01-13-VERSO<-PROMETEO-300.png
+│   │       │   ├── 2024-01-13-VERSO<-PROMETEO-72.png
+│   │       │   ├── 2024-01-13-VERSO<-PROMETEO.pdf
+│   │       │   └── 2024-01-13-VERSO<-PROMETEO.tex
+│   │       ├── 2024-01-20-GALANTE
+│   │       │   ├── 2024-01-20-GALANTE-300.png
+│   │       │   ├── 2024-01-20-GALANTE-72.png
+│   │       │   ├── 2024-01-20-GALANTE.pdf
+│   │       │   └── 2024-01-20-GALANTE.tex
+│   │       ├── 2024-02-17-PAX
+│   │       │   ├── 2024-02-17-PAX-300.png
+│   │       │   ├── 2024-02-17-PAX-72.png
+│   │       │   ├── 2024-02-17-PAX.pdf
+│   │       │   └── 2024-02-17-PAX.tex
+│   │       └── 2024-03-23-ADS
+│   │           ├── 2024-03-23-ADS-300.png
+│   │           ├── 2024-03-23-ADS-72.png
+│   │           ├── 2024-03-23-ADS.pdf
+│   │           └── 2024-03-23-ADS.tex
+│   ├── archidipietra
+│   │   ├── 001-primorespiro
+│   │   │   └── index.html
+│   │   ├── 002-secondorespiro
+│   │   │   └── index.html
+│   │   ├── 003-terzorespiro
+│   │   │   └── index.html
+│   │   ├── 004-quartorespiro
+│   │   │   └── index.html
+│   │   ├── 005-quintorespiro
+│   │   │   └── index.html
+│   │   └── index.html
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── main.css
+│   │   │   └── skins
+│   │   │       ├── dark.css
+│   │   │       ├── default.css
+│   │   │       └── light.css
+│   │   └── js
+│   │       ├── lunr
+│   │       │   ├── lunr.da.min.js
+│   │       │   ├── lunr.de.min.js
+│   │       │   ├── lunr.du.min.js
+│   │       │   ├── lunr.es.min.js
+│   │       │   ├── lunr.fi.min.js
+│   │       │   ├── lunr.fr.min.js
+│   │       │   ├── lunr.hu.min.js
+│   │       │   ├── lunr.it.min.js
+│   │       │   ├── lunr.ja.min.js
+│   │       │   ├── lunr.jp.min.js
+│   │       │   ├── lunr.min.js
+│   │       │   ├── lunr.multi.min.js
+│   │       │   ├── lunr.no.min.js
+│   │       │   ├── lunr.pt.min.js
+│   │       │   ├── lunr.ro.min.js
+│   │       │   ├── lunr.ru.min.js
+│   │       │   ├── lunr.stemmer.support.min.js
+│   │       │   ├── lunr.sv.min.js
+│   │       │   └── lunr.tr.min.js
+│   │       ├── main.js
+│   │       ├── main.min.js
+│   │       ├── plugins
+│   │       │   ├── jquery.smooth-scroll.js
+│   │       │   ├── jquery.smooth-scroll.min.js
+│   │       │   ├── lity.js
+│   │       │   ├── lity.min.js
+│   │       │   └── table-of-contents.js
+│   │       └── search-data.js
+│   ├── atom.xml
+│   ├── banner.js
+│   ├── browserconfig.xml
+│   ├── categories
+│   │   └── index.html
+│   ├── domeniche
+│   │   ├── 001-prima-domenica
+│   │   │   └── index.html
+│   │   ├── 002-seconda-domenica
+│   │   │   └── index.html
+│   │   ├── 003-terza-domenica
+│   │   │   └── index.html
+│   │   ├── 004-quarta-domenica
+│   │   │   └── index.html
+│   │   ├── 005-quinta-domenica
+│   │   │   └── index.html
+│   │   ├── img
+│   │   │   └── 2024-06-01
+│   │   │       ├── FullSizeRender 10.HEIC
+│   │   │       ├── FullSizeRender 11.HEIC
+│   │   │       ├── FullSizeRender 2.HEIC
+│   │   │       ├── FullSizeRender 3.HEIC
+│   │   │       ├── FullSizeRender 4.HEIC
+│   │   │       ├── FullSizeRender 5.HEIC
+│   │   │       ├── FullSizeRender 6.HEIC
+│   │   │       ├── FullSizeRender 7.HEIC
+│   │   │       ├── FullSizeRender 8.HEIC
+│   │   │       ├── FullSizeRender 9.HEIC
+│   │   │       ├── FullSizeRender.HEIC
+│   │   │       ├── IMG_7619.HEIC
+│   │   │       ├── IMG_7630.HEIC
+│   │   │       ├── IMG_7632.HEIC
+│   │   │       ├── IMG_7635.HEIC
+│   │   │       ├── IMG_7641.HEIC
+│   │   │       ├── IMG_7649.HEIC
+│   │   │       ├── IMG_7653.HEIC
+│   │   │       ├── IMG_7665.HEIC
+│   │   │       ├── IMG_7666.HEIC
+│   │   │       ├── IMG_7671.HEIC
+│   │   │       ├── IMG_7673.HEIC
+│   │   │       ├── IMG_7689.HEIC
+│   │   │       ├── IMG_7805.HEIC
+│   │   │       ├── IMG_7821.HEIC
+│   │   │       ├── IMG_7823.HEIC
+│   │   │       ├── IMG_7825.HEIC
+│   │   │       ├── IMG_7830.HEIC
+│   │   │       ├── IMG_7840.HEIC
+│   │   │       ├── IMG_7841.HEIC
+│   │   │       ├── IMG_7844.HEIC
+│   │   │       ├── IMG_7846.HEIC
+│   │   │       ├── IMG_7847.HEIC
+│   │   │       ├── IMG_7849.HEIC
+│   │   │       ├── IMG_7859.HEIC
+│   │   │       ├── IMG_7860.HEIC
+│   │   │       ├── IMG_7861.HEIC
+│   │   │       ├── IMG_7864.HEIC
+│   │   │       ├── IMG_7865.HEIC
+│   │   │       ├── IMG_7867.HEIC
+│   │   │       ├── IMG_7876.HEIC
+│   │   │       ├── IMG_7878.HEIC
+│   │   │       ├── IMG_7880.HEIC
+│   │   │       ├── IMG_7883.HEIC
+│   │   │       ├── IMG_7886.HEIC
+│   │   │       ├── IMG_7888.HEIC
+│   │   │       ├── IMG_7889.HEIC
+│   │   │       ├── IMG_7893.HEIC
+│   │   │       ├── IMG_7896.HEIC
+│   │   │       ├── IMG_7899.HEIC
+│   │   │       ├── IMG_7900.HEIC
+│   │   │       ├── IMG_7902.HEIC
+│   │   │       ├── IMG_7903.HEIC
+│   │   │       ├── IMG_7906.HEIC
+│   │   │       ├── IMG_7907.HEIC
+│   │   │       ├── IMG_7908.HEIC
+│   │   │       ├── IMG_7912.HEIC
+│   │   │       ├── IMG_7913.HEIC
+│   │   │       ├── IMG_7914.HEIC
+│   │   │       └── IMG_7916.HEIC
+│   │   └── index.html
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   ├── images
+│   │   ├── 2023-11-adp-hero.jpg
+│   │   ├── ac.jpg
+│   │   ├── galante.jpg
+│   │   ├── gs.jpg
+│   │   ├── lazzaro
+│   │   │   ├── 2023-07-12-lazzaro
+│   │   │   │   └── ac
+│   │   │   │       ├── edit
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-01.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-02.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-03.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-04.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-05.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-06.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-07.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-08.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-09.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-10.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-11.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-12.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-13.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-14.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-15.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-16.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-17.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-18.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-19.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-20.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-21.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-22.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-23.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-24.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-25.jpg
+│   │   │   │       │   ├── 2023-07-12-lazzaro-ac-26.jpg
+│   │   │   │       │   └── 2023-07-12-lazzaro-ac-27.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231177.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231198.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231204.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231211.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231231.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231233.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231242.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231243.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231249.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231267.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231268.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231272.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231274.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231284.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231286.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231291.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231296.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231300.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231310.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231311.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231312.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231327.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231339.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231346.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231353.jpg
+│   │   │   │       │   ├── lazzaro-artescienza-luglio-20231355.jpg
+│   │   │   │       │   └── lazzaro-artescienza-luglio-20231364.jpg
+│   │   │   │       └── thumb
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-01.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-02.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-03.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-04.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-05.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-06.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-07.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-08.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-09.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-10.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-11.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-12.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-13.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-14.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-15.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-16.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-17.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-18.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-19.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-20.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-21.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-22.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-23.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-24.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-25.jpg
+│   │   │   │           ├── 2023-07-12-lazzaro-ac-26.jpg
+│   │   │   │           └── 2023-07-12-lazzaro-ac-27.jpg
+│   │   │   ├── 2023-07-12-lazzaro-hero.jpg
+│   │   │   ├── 2023-07-12-lazzaro-t.jpg
+│   │   │   ├── 2023-09-03-lazzaro
+│   │   │   │   ├── ac
+│   │   │   │   │   ├── edit
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-01.jpg
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-02.jpg
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-03.jpg
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-04.jpg
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-05.jpg
+│   │   │   │   │   │   ├── 2023-09-03-lazzaro-ac-06.jpg
+│   │   │   │   │   │   └── 2023-09-03-lazzaro-ac-07.jpg
+│   │   │   │   │   ├── org
+│   │   │   │   │   │   ├── lazzaro_030920231940.jpg
+│   │   │   │   │   │   ├── lazzaro_030920231944.jpg
+│   │   │   │   │   │   ├── lazzaro_030920231954.jpg
+│   │   │   │   │   │   ├── lazzaro_030920231956.jpg
+│   │   │   │   │   │   ├── lazzaro_030920231959.jpg
+│   │   │   │   │   │   ├── lazzaro_030920231960.jpg
+│   │   │   │   │   │   └── lazzaro_030920231961.jpg
+│   │   │   │   │   └── thumb
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-01.jpg
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-02.jpg
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-03.jpg
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-04.jpg
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-05.jpg
+│   │   │   │   │       ├── 2023-09-03-lazzaro-ac-06.jpg
+│   │   │   │   │       └── 2023-09-03-lazzaro-ac-07.jpg
+│   │   │   │   └── marco-iacobucci
+│   │   │   │       ├── edit
+│   │   │   │       │   ├── 2023-09-03-lazzaro-mi-01.jpg
+│   │   │   │       │   ├── 2023-09-03-lazzaro-mi-02.jpg
+│   │   │   │       │   ├── 2023-09-03-lazzaro-mi-03.jpg
+│   │   │   │       │   ├── 2023-09-03-lazzaro-mi-04.jpg
+│   │   │   │       │   └── 2023-09-03-lazzaro-mi-05.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   ├── arte-03-09-0272.jpg
+│   │   │   │       │   ├── arte-03-09-0299.jpg
+│   │   │   │       │   ├── arte-03-09-0368.jpg
+│   │   │   │       │   ├── arte-03-09-0595.jpg
+│   │   │   │       │   └── arte-03-09-0638.jpg
+│   │   │   │       └── thumb
+│   │   │   │           ├── 2023-09-03-lazzaro-mi-01.jpg
+│   │   │   │           ├── 2023-09-03-lazzaro-mi-02.jpg
+│   │   │   │           ├── 2023-09-03-lazzaro-mi-03.jpg
+│   │   │   │           ├── 2023-09-03-lazzaro-mi-04.jpg
+│   │   │   │           └── 2023-09-03-lazzaro-mi-05.jpg
+│   │   │   ├── 2023-09-03-lazzaro-hero.jpg
+│   │   │   ├── 2023-09-03-lazzaro-t.jpg
+│   │   │   ├── 2023-10-11-lazzaro
+│   │   │   │   └── ac
+│   │   │   │       ├── edit
+│   │   │   │       │   ├── 2023-10-11-lazzaro-ac-01.jpg
+│   │   │   │       │   └── 2023-10-11-lazzaro-ac-02.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   ├── lazzaro_11102023-2511.jpg
+│   │   │   │       │   └── lazzaro_11102023-2529.jpg
+│   │   │   │       └── thumb
+│   │   │   │           ├── 2023-10-11-lazzaro-ac-01.jpg
+│   │   │   │           └── 2023-10-11-lazzaro-ac-02.jpg
+│   │   │   ├── 2023-10-11-lazzaro-hero.jpg
+│   │   │   ├── 2023-10-11-lazzaro-t.jpeg
+│   │   │   ├── 2023-thin-leap-es
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2023-thin-leap-es-01.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-02.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-03.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-04.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-05.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-06.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-07.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-08.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-09.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-10.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-11.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-12.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-13.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-14.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-15.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-16.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-17.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-18.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-19.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-20.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-21.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-22.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-23.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-24.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-25.jpg
+│   │   │   │   │   └── 2023-thin-leap-es-26.jpg
+│   │   │   │   ├── org
+│   │   │   │   │   ├── thin-leap-1.jpg
+│   │   │   │   │   ├── thin-leap-10.jpg
+│   │   │   │   │   ├── thin-leap-11.jpg
+│   │   │   │   │   ├── thin-leap-12.jpg
+│   │   │   │   │   ├── thin-leap-13.jpg
+│   │   │   │   │   ├── thin-leap-14.jpg
+│   │   │   │   │   ├── thin-leap-15.jpg
+│   │   │   │   │   ├── thin-leap-16.jpg
+│   │   │   │   │   ├── thin-leap-17.jpg
+│   │   │   │   │   ├── thin-leap-18.jpg
+│   │   │   │   │   ├── thin-leap-19.jpg
+│   │   │   │   │   ├── thin-leap-2.jpg
+│   │   │   │   │   ├── thin-leap-20.jpg
+│   │   │   │   │   ├── thin-leap-21.jpg
+│   │   │   │   │   ├── thin-leap-22.jpg
+│   │   │   │   │   ├── thin-leap-23.jpg
+│   │   │   │   │   ├── thin-leap-24.jpg
+│   │   │   │   │   ├── thin-leap-25.jpg
+│   │   │   │   │   ├── thin-leap-26.jpg
+│   │   │   │   │   ├── thin-leap-3.jpg
+│   │   │   │   │   ├── thin-leap-4.jpg
+│   │   │   │   │   ├── thin-leap-5.jpg
+│   │   │   │   │   ├── thin-leap-6.jpg
+│   │   │   │   │   ├── thin-leap-7.jpg
+│   │   │   │   │   ├── thin-leap-8.jpg
+│   │   │   │   │   └── thin-leap-9.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2023-thin-leap-es-01.jpg
+│   │   │   │       ├── 2023-thin-leap-es-02.jpg
+│   │   │   │       ├── 2023-thin-leap-es-03.jpg
+│   │   │   │       ├── 2023-thin-leap-es-04.jpg
+│   │   │   │       ├── 2023-thin-leap-es-05.jpg
+│   │   │   │       ├── 2023-thin-leap-es-06.jpg
+│   │   │   │       ├── 2023-thin-leap-es-07.jpg
+│   │   │   │       ├── 2023-thin-leap-es-08.jpg
+│   │   │   │       ├── 2023-thin-leap-es-09.jpg
+│   │   │   │       ├── 2023-thin-leap-es-10.jpg
+│   │   │   │       ├── 2023-thin-leap-es-11.jpg
+│   │   │   │       ├── 2023-thin-leap-es-12.jpg
+│   │   │   │       ├── 2023-thin-leap-es-13.jpg
+│   │   │   │       ├── 2023-thin-leap-es-14.jpg
+│   │   │   │       ├── 2023-thin-leap-es-15.jpg
+│   │   │   │       ├── 2023-thin-leap-es-16.jpg
+│   │   │   │       ├── 2023-thin-leap-es-17.jpg
+│   │   │   │       ├── 2023-thin-leap-es-18.jpg
+│   │   │   │       ├── 2023-thin-leap-es-19.jpg
+│   │   │   │       ├── 2023-thin-leap-es-20.jpg
+│   │   │   │       ├── 2023-thin-leap-es-21.jpg
+│   │   │   │       ├── 2023-thin-leap-es-22.jpg
+│   │   │   │       ├── 2023-thin-leap-es-23.jpg
+│   │   │   │       ├── 2023-thin-leap-es-24.jpg
+│   │   │   │       ├── 2023-thin-leap-es-25.jpg
+│   │   │   │       └── 2023-thin-leap-es-26.jpg
+│   │   │   └── lazzaro-hero.jpg
+│   │   ├── leo.jpg
+│   │   ├── leviatano-hero.jpg
+│   │   ├── mdg.jpg
+│   │   ├── posts
+│   │   │   ├── 2023-09-11-13-SHORT-THEATRE
+│   │   │   │   └── ac
+│   │   │   │       ├── 2023-09-11-13-ShTh-hero.jpg
+│   │   │   │       ├── edit
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-01.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-02.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-03.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-04.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-05.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-06.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-07.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-08.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-09.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-10.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-11.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-12.jpg
+│   │   │   │       │   ├── 2023-09-11-13-ShTh-13.jpg
+│   │   │   │       │   └── 2023-09-11-13-ShTh-14.jpg
+│   │   │   │       ├── org
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2024.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2026.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2030.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2039.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2041.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2046.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2048.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2052.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2054.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2057.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2061.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2070.jpg
+│   │   │   │       │   ├── 2023-11-workshop-short-theatre2086.jpg
+│   │   │   │       │   └── 2023-11-workshop-short-theatre2088.jpg
+│   │   │   │       └── thumb
+│   │   │   │           ├── 2023-09-11-13-ShTh-01.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-02.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-03.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-04.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-05.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-06.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-07.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-08.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-09.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-10.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-11.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-12.jpg
+│   │   │   │           ├── 2023-09-11-13-ShTh-13.jpg
+│   │   │   │           └── 2023-09-11-13-ShTh-14.jpg
+│   │   │   ├── 2023-12-05-TRIO-FEEDBACK
+│   │   │   │   ├── 2023-12-05-tf-hero.jpg
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2023-thin-leap-es-01.jpg
+│   │   │   │   │   ├── 2023-thin-leap-es-02.jpg
+│   │   │   │   │   └── 2023-thin-leap-es-03.jpg
+│   │   │   │   ├── org
+│   │   │   │   │   ├── IMG_3441.jpg
+│   │   │   │   │   ├── IMG_3442.jpg
+│   │   │   │   │   └── IMG_3625.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2023-12-05-tf-01.jpg
+│   │   │   │       ├── 2023-12-05-tf-02.jpg
+│   │   │   │       └── 2023-12-05-tf-03.jpg
+│   │   │   └── 2024-03-24-DAPDI-III
+│   │   │       ├── edit
+│   │   │       │   ├── 2024-03-24-dapdi3-01.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-02.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-03.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-04.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-05.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-06.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-07.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-08.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-09.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-10.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-11.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-12.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-13.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-14.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-15.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-16.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-17.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-18.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-19.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-20.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-21.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-22.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-23.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-24.jpg
+│   │   │       │   ├── 2024-03-24-dapdi3-25.jpg
+│   │   │       │   └── 2024-03-24-dapdi3-26.jpg
+│   │   │       ├── org
+│   │   │       │   ├── IMG_6132.jpg
+│   │   │       │   ├── IMG_6135.jpg
+│   │   │       │   ├── IMG_6140.jpg
+│   │   │       │   ├── IMG_6143.jpg
+│   │   │       │   ├── IMG_6151.jpg
+│   │   │       │   ├── IMG_6154.jpg
+│   │   │       │   ├── IMG_6157.jpg
+│   │   │       │   ├── IMG_6159.jpg
+│   │   │       │   ├── IMG_6161.jpg
+│   │   │       │   ├── IMG_6164.jpg
+│   │   │       │   ├── IMG_6165.jpg
+│   │   │       │   ├── IMG_6169.jpg
+│   │   │       │   ├── IMG_6179.jpg
+│   │   │       │   ├── IMG_6181.jpg
+│   │   │       │   ├── IMG_6185.jpg
+│   │   │       │   ├── IMG_6189.jpg
+│   │   │       │   ├── IMG_6201.jpg
+│   │   │       │   ├── IMG_6208.jpg
+│   │   │       │   ├── IMG_6215.jpg
+│   │   │       │   ├── IMG_6223.jpg
+│   │   │       │   ├── IMG_6229.jpg
+│   │   │       │   ├── IMG_6230.jpg
+│   │   │       │   ├── IMG_6231.jpg
+│   │   │       │   ├── IMG_6236.jpg
+│   │   │       │   ├── IMG_6245.jpg
+│   │   │       │   └── IMG_6247.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2024-03-24-dapdi3-01.jpg
+│   │   │           ├── 2024-03-24-dapdi3-02.jpg
+│   │   │           ├── 2024-03-24-dapdi3-03.jpg
+│   │   │           ├── 2024-03-24-dapdi3-04.jpg
+│   │   │           ├── 2024-03-24-dapdi3-05.jpg
+│   │   │           ├── 2024-03-24-dapdi3-06.jpg
+│   │   │           ├── 2024-03-24-dapdi3-07.jpg
+│   │   │           ├── 2024-03-24-dapdi3-08.jpg
+│   │   │           ├── 2024-03-24-dapdi3-09.jpg
+│   │   │           ├── 2024-03-24-dapdi3-10.jpg
+│   │   │           ├── 2024-03-24-dapdi3-11.jpg
+│   │   │           ├── 2024-03-24-dapdi3-12.jpg
+│   │   │           ├── 2024-03-24-dapdi3-13.jpg
+│   │   │           ├── 2024-03-24-dapdi3-14.jpg
+│   │   │           ├── 2024-03-24-dapdi3-15.jpg
+│   │   │           ├── 2024-03-24-dapdi3-16.jpg
+│   │   │           ├── 2024-03-24-dapdi3-17.jpg
+│   │   │           ├── 2024-03-24-dapdi3-18.jpg
+│   │   │           ├── 2024-03-24-dapdi3-19.jpg
+│   │   │           ├── 2024-03-24-dapdi3-20.jpg
+│   │   │           ├── 2024-03-24-dapdi3-21.jpg
+│   │   │           ├── 2024-03-24-dapdi3-22.jpg
+│   │   │           ├── 2024-03-24-dapdi3-23.jpg
+│   │   │           ├── 2024-03-24-dapdi3-24.jpg
+│   │   │           ├── 2024-03-24-dapdi3-25.jpg
+│   │   │           └── 2024-03-24-dapdi3-26.jpg
+│   │   ├── vedovaIDT.jpg
+│   │   └── vituccif.jpg
+│   ├── index.html
+│   ├── jekyll-theme-so-simple.gemspec
+│   ├── lazzaro
+│   │   ├── 2023-07-12-roma
+│   │   │   └── index.html
+│   │   ├── 2023-09-03-roma
+│   │   │   └── index.html
+│   │   ├── 2023-10-11-latina
+│   │   │   └── index.html
+│   │   └── index.html
+│   ├── mstile-150x150.png
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── posts
+│   │   └── index.html
+│   ├── qr
+│   │   ├── QR_Code_1700578159.png
+│   │   ├── QR_Code_1700578175.png
+│   │   ├── QR_Code_1700578355.png
+│   │   └── QR_Code_1700578374.png
+│   ├── robots.txt
+│   ├── safari-pinned-tab.svg
+│   ├── saltati
+│   │   ├── 2
+│   │   │   └── index.html
+│   │   ├── ASC
+│   │   │   └── index.html
+│   │   ├── DOMENICHE-LIVE
+│   │   │   └── index.html
+│   │   ├── LAZZARO-130724
+│   │   │   └── index.html
+│   │   ├── LAZZARO-EAQ
+│   │   │   └── index.html
+│   │   ├── PELANDA
+│   │   │   └── index.html
+│   │   ├── adp-primo
+│   │   │   └── index.html
+│   │   ├── adp-quarto
+│   │   │   └── index.html
+│   │   ├── adp-quinto
+│   │   │   └── index.html
+│   │   ├── adp-secondo
+│   │   │   └── index.html
+│   │   ├── adp-terzo
+│   │   │   └── index.html
+│   │   ├── calderone
+│   │   │   └── index.html
+│   │   ├── mmm-ae3
+│   │   │   └── index.html
+│   │   ├── prima-domenica
+│   │   │   └── index.html
+│   │   ├── quarta-domenica
+│   │   │   └── index.html
+│   │   ├── quinta-domenica
+│   │   │   └── index.html
+│   │   ├── seconda-domenica
+│   │   │   └── index.html
+│   │   ├── shorttheatre
+│   │   │   └── index.html
+│   │   └── terza-domenica
+│   │       └── index.html
+│   ├── search
+│   │   └── index.html
+│   ├── site.webmanifest
+│   ├── sitemap.xml
+│   └── tags
+│       └── index.html
+├── android-chrome-192x192.png
+├── android-chrome-512x512.png
+├── apple-touch-icon.png
+├── archi-di-pietra
+│   ├── LICENSE
+│   ├── README.md
+│   ├── doc
+│   │   ├── 2023-11-06-adp-primo-respiro-pax-slides.c.pdf
+│   │   └── 2024-01-13-verso-prometeo-slides.pdf
+│   ├── img
+│   │   ├── 2023-11-06-adp-primo-respiro
+│   │   │   ├── ac
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2023-11-06-adp-01.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-02.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-03.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-04.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-05.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-06.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-07.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-08.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-09.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-10.jpg
+│   │   │   │   │   ├── 2023-11-06-adp-11.jpg
+│   │   │   │   │   └── 2023-11-06-adp-12.jpg
+│   │   │   │   ├── org
+│   │   │   │   │   ├── 2023-11-06-001-3134.jpg
+│   │   │   │   │   ├── 2023-11-06-002-3040.jpg
+│   │   │   │   │   ├── 2023-11-06-003-3066.jpg
+│   │   │   │   │   ├── 2023-11-06-004-3050.jpg
+│   │   │   │   │   ├── 2023-11-06-005-3095.jpg
+│   │   │   │   │   ├── 2023-11-06-006-3084.jpg
+│   │   │   │   │   ├── 2023-11-06-007-3146.jpg
+│   │   │   │   │   ├── 2023-11-06-008-3125.jpg
+│   │   │   │   │   ├── 2023-11-06-009-3120.jpg
+│   │   │   │   │   ├── 2023-11-06-010-3113.jpg
+│   │   │   │   │   ├── 2023-11-06-011-3035.jpg
+│   │   │   │   │   └── 2023-11-06-012-3137.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2023-11-06-adp-01.jpg
+│   │   │   │       ├── 2023-11-06-adp-02.jpg
+│   │   │   │       ├── 2023-11-06-adp-03.jpg
+│   │   │   │       ├── 2023-11-06-adp-04.jpg
+│   │   │   │       ├── 2023-11-06-adp-05.jpg
+│   │   │   │       ├── 2023-11-06-adp-06.jpg
+│   │   │   │       ├── 2023-11-06-adp-07.jpg
+│   │   │   │       ├── 2023-11-06-adp-08.jpg
+│   │   │   │       ├── 2023-11-06-adp-09.jpg
+│   │   │   │       ├── 2023-11-06-adp-10.jpg
+│   │   │   │       ├── 2023-11-06-adp-11.jpg
+│   │   │   │       └── 2023-11-06-adp-12.jpg
+│   │   │   ├── dt
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-001.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-002.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-003.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-004.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-005.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-006.jpeg
+│   │   │   │   ├── 2023-11-06-adp-primo-respiro-dt-007.jpeg
+│   │   │   │   └── 2023-11-06-adp-primo-respiro-dt-008.jpeg
+│   │   │   ├── gmd
+│   │   │   │   └── 2023-11-06-adp-primo-respiro-gmd-001.jpeg
+│   │   │   ├── lz
+│   │   │   │   └── 2023-11-06-adp-primo-respiro-lz-001.jpeg
+│   │   │   └── thumb
+│   │   │       ├── 2023-11-06-001-3134.jpg
+│   │   │       ├── 2023-11-06-002-3040.jpg
+│   │   │       ├── 2023-11-06-003-3066.jpg
+│   │   │       ├── 2023-11-06-004-3050.jpg
+│   │   │       ├── 2023-11-06-005-3095.jpg
+│   │   │       ├── 2023-11-06-006-3084.jpg
+│   │   │       ├── 2023-11-06-007-3146.jpg
+│   │   │       ├── 2023-11-06-008-3125.jpg
+│   │   │       ├── 2023-11-06-009-3120.jpg
+│   │   │       ├── 2023-11-06-010-3113.jpg
+│   │   │       ├── 2023-11-06-011-3035.jpg
+│   │   │       └── 2023-11-06-012-3137.jpg
+│   │   ├── 2024-01-13-adp-secondo-respiro
+│   │   │   └── ac
+│   │   │       ├── edit
+│   │   │       │   ├── 2024-01-13-adp-01.jpg
+│   │   │       │   ├── 2024-01-13-adp-02.jpg
+│   │   │       │   ├── 2024-01-13-adp-03.jpg
+│   │   │       │   ├── 2024-01-13-adp-04.jpg
+│   │   │       │   ├── 2024-01-13-adp-05.jpg
+│   │   │       │   ├── 2024-01-13-adp-06.jpg
+│   │   │       │   ├── 2024-01-13-adp-07.jpg
+│   │   │       │   ├── 2024-01-13-adp-08.jpg
+│   │   │       │   ├── 2024-01-13-adp-09.jpg
+│   │   │       │   ├── 2024-01-13-adp-10.jpg
+│   │   │       │   ├── 2024-01-13-adp-11.jpg
+│   │   │       │   ├── 2024-01-13-adp-12.jpg
+│   │   │       │   ├── 2024-01-13-adp-13.jpg
+│   │   │       │   ├── 2024-01-13-adp-14.jpg
+│   │   │       │   ├── 2024-01-13-adp-15.jpg
+│   │   │       │   ├── 2024-01-13-adp-16.jpg
+│   │   │       │   ├── 2024-01-13-adp-17.jpg
+│   │   │       │   ├── 2024-01-13-adp-18.jpg
+│   │   │       │   ├── 2024-01-13-adp-19.jpg
+│   │   │       │   ├── 2024-01-13-adp-20.jpg
+│   │   │       │   ├── 2024-01-13-adp-21.jpg
+│   │   │       │   ├── 2024-01-13-adp-22.jpg
+│   │   │       │   ├── 2024-01-13-adp-23.jpg
+│   │   │       │   ├── 2024-01-13-adp-24.jpg
+│   │   │       │   ├── 2024-01-13-adp-25.jpg
+│   │   │       │   └── 2024-01-13-adp-26.jpg
+│   │   │       ├── org
+│   │   │       │   ├── IMG_4420.jpg
+│   │   │       │   ├── IMG_4428.jpg
+│   │   │       │   ├── IMG_4436.jpg
+│   │   │       │   ├── IMG_4440.jpg
+│   │   │       │   ├── IMG_4455.jpg
+│   │   │       │   ├── IMG_4458.jpg
+│   │   │       │   ├── IMG_4462.jpg
+│   │   │       │   ├── IMG_4472.jpg
+│   │   │       │   ├── IMG_4474.jpg
+│   │   │       │   ├── IMG_4475.jpg
+│   │   │       │   ├── IMG_4493.jpg
+│   │   │       │   ├── IMG_4496.jpg
+│   │   │       │   ├── IMG_4500.jpg
+│   │   │       │   ├── IMG_4519.jpg
+│   │   │       │   ├── IMG_4529.jpg
+│   │   │       │   ├── IMG_4533.jpg
+│   │   │       │   ├── IMG_4534.jpg
+│   │   │       │   ├── IMG_4545.jpg
+│   │   │       │   ├── IMG_4547.jpg
+│   │   │       │   ├── IMG_4549.jpg
+│   │   │       │   ├── IMG_4562.jpg
+│   │   │       │   ├── IMG_4566.jpg
+│   │   │       │   ├── IMG_4580.jpg
+│   │   │       │   ├── IMG_4581.jpg
+│   │   │       │   ├── IMG_4588.jpg
+│   │   │       │   └── IMG_4593.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2024-01-13-adp-01.jpg
+│   │   │           ├── 2024-01-13-adp-02.jpg
+│   │   │           ├── 2024-01-13-adp-03.jpg
+│   │   │           ├── 2024-01-13-adp-04.jpg
+│   │   │           ├── 2024-01-13-adp-05.jpg
+│   │   │           ├── 2024-01-13-adp-06.jpg
+│   │   │           ├── 2024-01-13-adp-07.jpg
+│   │   │           ├── 2024-01-13-adp-08.jpg
+│   │   │           ├── 2024-01-13-adp-09.jpg
+│   │   │           ├── 2024-01-13-adp-10.jpg
+│   │   │           ├── 2024-01-13-adp-11.jpg
+│   │   │           ├── 2024-01-13-adp-12.jpg
+│   │   │           ├── 2024-01-13-adp-13.jpg
+│   │   │           ├── 2024-01-13-adp-14.jpg
+│   │   │           ├── 2024-01-13-adp-15.jpg
+│   │   │           ├── 2024-01-13-adp-16.jpg
+│   │   │           ├── 2024-01-13-adp-17.jpg
+│   │   │           ├── 2024-01-13-adp-18.jpg
+│   │   │           ├── 2024-01-13-adp-19.jpg
+│   │   │           ├── 2024-01-13-adp-20.jpg
+│   │   │           ├── 2024-01-13-adp-21.jpg
+│   │   │           ├── 2024-01-13-adp-22.jpg
+│   │   │           ├── 2024-01-13-adp-23.jpg
+│   │   │           ├── 2024-01-13-adp-24.jpg
+│   │   │           ├── 2024-01-13-adp-25.jpg
+│   │   │           └── 2024-01-13-adp-26.jpg
+│   │   ├── 2024-01-20-adp-terzo-respiro
+│   │   │   ├── ac
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2024-01-20-adp-01.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-02.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-03.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-04.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-05.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-06.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-07.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-08.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-09.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-10.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-11.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-12.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-13.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-14.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-15.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-16.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-17.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-18.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-19.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-20.jpg
+│   │   │   │   │   ├── 2024-01-20-adp-21.jpg
+│   │   │   │   │   └── 2024-01-20-adp-22.jpg
+│   │   │   │   ├── org
+│   │   │   │   │   ├── IMG_4730.jpg
+│   │   │   │   │   ├── IMG_4736.jpg
+│   │   │   │   │   ├── IMG_4754.jpg
+│   │   │   │   │   ├── IMG_4766.jpg
+│   │   │   │   │   ├── IMG_4775.jpg
+│   │   │   │   │   ├── IMG_4783.jpg
+│   │   │   │   │   ├── IMG_4811.jpg
+│   │   │   │   │   ├── IMG_4812.jpg
+│   │   │   │   │   ├── IMG_4840.jpg
+│   │   │   │   │   ├── IMG_4855.jpg
+│   │   │   │   │   ├── IMG_4862.jpg
+│   │   │   │   │   ├── IMG_4874.jpg
+│   │   │   │   │   ├── IMG_4902.jpg
+│   │   │   │   │   ├── IMG_4907.jpg
+│   │   │   │   │   ├── IMG_4911.jpg
+│   │   │   │   │   ├── IMG_4912.jpg
+│   │   │   │   │   ├── IMG_4917.jpg
+│   │   │   │   │   ├── IMG_4918.jpg
+│   │   │   │   │   ├── IMG_4931.jpg
+│   │   │   │   │   ├── IMG_4934.jpg
+│   │   │   │   │   ├── IMG_4935.jpg
+│   │   │   │   │   └── IMG_4941.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2024-01-20-adp-01.jpg
+│   │   │   │       ├── 2024-01-20-adp-02.jpg
+│   │   │   │       ├── 2024-01-20-adp-03.jpg
+│   │   │   │       ├── 2024-01-20-adp-04.jpg
+│   │   │   │       ├── 2024-01-20-adp-05.jpg
+│   │   │   │       ├── 2024-01-20-adp-06.jpg
+│   │   │   │       ├── 2024-01-20-adp-07.jpg
+│   │   │   │       ├── 2024-01-20-adp-08.jpg
+│   │   │   │       ├── 2024-01-20-adp-09.jpg
+│   │   │   │       ├── 2024-01-20-adp-10.jpg
+│   │   │   │       ├── 2024-01-20-adp-11.jpg
+│   │   │   │       ├── 2024-01-20-adp-12.jpg
+│   │   │   │       ├── 2024-01-20-adp-13.jpg
+│   │   │   │       ├── 2024-01-20-adp-14.jpg
+│   │   │   │       ├── 2024-01-20-adp-15.jpg
+│   │   │   │       ├── 2024-01-20-adp-16.jpg
+│   │   │   │       ├── 2024-01-20-adp-17.jpg
+│   │   │   │       ├── 2024-01-20-adp-18.jpg
+│   │   │   │       ├── 2024-01-20-adp-19.jpg
+│   │   │   │       ├── 2024-01-20-adp-20.jpg
+│   │   │   │       ├── 2024-01-20-adp-21.jpg
+│   │   │   │       └── 2024-01-20-adp-22.jpg
+│   │   │   ├── dt
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2024-01-20-adp-01.JPG
+│   │   │   │   │   ├── 2024-01-20-adp-02.JPG
+│   │   │   │   │   └── 2024-01-20-adp-03.JPG
+│   │   │   │   ├── org
+│   │   │   │   │   ├── IMG_5504.JPG
+│   │   │   │   │   ├── IMG_5506.JPG
+│   │   │   │   │   └── IMG_5507.JPG
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2024-01-20-adp-01.JPG
+│   │   │   │       ├── 2024-01-20-adp-02.JPG
+│   │   │   │       └── 2024-01-20-adp-03.JPG
+│   │   │   └── gs
+│   │   │       ├── edit
+│   │   │       │   └── 2024-01-20-adp-01.jpg
+│   │   │       ├── org
+│   │   │       │   └── IMG_6572.jpg
+│   │   │       └── thumb
+│   │   │           └── 2024-01-20-adp-01.jpg
+│   │   └── 2024-02-17-adp-quarto-respiro
+│   │       ├── ac
+│   │       │   ├── edit
+│   │       │   │   ├── 2024-02-17-adp-01.jpg
+│   │       │   │   ├── 2024-02-17-adp-02.jpg
+│   │       │   │   ├── 2024-02-17-adp-03.jpg
+│   │       │   │   ├── 2024-02-17-adp-04.jpg
+│   │       │   │   ├── 2024-02-17-adp-05.jpg
+│   │       │   │   ├── 2024-02-17-adp-06.jpg
+│   │       │   │   ├── 2024-02-17-adp-07.jpg
+│   │       │   │   ├── 2024-02-17-adp-08.jpg
+│   │       │   │   ├── 2024-02-17-adp-09.jpg
+│   │       │   │   ├── 2024-02-17-adp-10.jpg
+│   │       │   │   ├── 2024-02-17-adp-11.jpg
+│   │       │   │   ├── 2024-02-17-adp-12.jpg
+│   │       │   │   ├── 2024-02-17-adp-13.jpg
+│   │       │   │   ├── 2024-02-17-adp-14.jpg
+│   │       │   │   ├── 2024-02-17-adp-15.jpg
+│   │       │   │   ├── 2024-02-17-adp-16.jpg
+│   │       │   │   └── 2024-02-17-adp-17.jpg
+│   │       │   ├── org
+│   │       │   │   ├── IMG_5384.jpg
+│   │       │   │   ├── IMG_5401.jpg
+│   │       │   │   ├── IMG_5404.jpg
+│   │       │   │   ├── IMG_5408.jpg
+│   │       │   │   ├── IMG_5414.jpg
+│   │       │   │   ├── IMG_5417.jpg
+│   │       │   │   ├── IMG_5430.jpg
+│   │       │   │   ├── IMG_5440.jpg
+│   │       │   │   ├── IMG_5448.jpg
+│   │       │   │   ├── IMG_5450.jpg
+│   │       │   │   ├── IMG_5462.jpg
+│   │       │   │   ├── IMG_5465.jpg
+│   │       │   │   ├── IMG_5474.jpg
+│   │       │   │   ├── IMG_5480.jpg
+│   │       │   │   ├── IMG_5483.jpg
+│   │       │   │   ├── IMG_5486.jpg
+│   │       │   │   └── IMG_5488.jpg
+│   │       │   └── thumb
+│   │       │       ├── 2024-02-17-adp-01.jpg
+│   │       │       ├── 2024-02-17-adp-02.jpg
+│   │       │       ├── 2024-02-17-adp-03.jpg
+│   │       │       ├── 2024-02-17-adp-04.jpg
+│   │       │       ├── 2024-02-17-adp-05.jpg
+│   │       │       ├── 2024-02-17-adp-06.jpg
+│   │       │       ├── 2024-02-17-adp-07.jpg
+│   │       │       ├── 2024-02-17-adp-08.jpg
+│   │       │       ├── 2024-02-17-adp-09.jpg
+│   │       │       ├── 2024-02-17-adp-10.jpg
+│   │       │       ├── 2024-02-17-adp-11.jpg
+│   │       │       ├── 2024-02-17-adp-12.jpg
+│   │       │       ├── 2024-02-17-adp-13.jpg
+│   │       │       ├── 2024-02-17-adp-14.jpg
+│   │       │       ├── 2024-02-17-adp-15.jpg
+│   │       │       ├── 2024-02-17-adp-16.jpg
+│   │       │       └── 2024-02-17-adp-17.jpg
+│   │       └── dt
+│   │           ├── edit
+│   │           │   ├── 2024-02-17-adp-01.png
+│   │           │   ├── 2024-02-17-adp-02.png
+│   │           │   ├── 2024-02-17-adp-03.png
+│   │           │   ├── 2024-02-17-adp-04.png
+│   │           │   └── 2024-02-17-adp-05.png
+│   │           ├── org
+│   │           │   ├── 2024-02-19 20-56-41-0.png
+│   │           │   ├── 2024-02-19 20-56-41-1.png
+│   │           │   ├── 2024-02-19 20-56-41-2.png
+│   │           │   ├── 2024-02-19 20-56-41-3.png
+│   │           │   └── 2024-02-19 20-56-41-4.png
+│   │           └── thumb
+│   │               ├── 2024-02-17-adp-01.png
+│   │               ├── 2024-02-17-adp-02.png
+│   │               ├── 2024-02-17-adp-03.png
+│   │               ├── 2024-02-17-adp-04.png
+│   │               └── 2024-02-17-adp-05.png
+│   └── src
+│       ├── 2023-11-06-PAX
+│       │   ├── 2023-11-06-PAX-300.png
+│       │   ├── 2023-11-06-PAX-72.png
+│       │   ├── 2023-11-06-PAX.pdf
+│       │   └── 2023-11-06-PAX.tex
+│       ├── 2024-01-13-VERSO<-PROMETEO
+│       │   ├── 2024-01-13-VERSO<-PROMETEO-300.png
+│       │   ├── 2024-01-13-VERSO<-PROMETEO-72.png
+│       │   ├── 2024-01-13-VERSO<-PROMETEO.pdf
+│       │   └── 2024-01-13-VERSO<-PROMETEO.tex
+│       ├── 2024-01-20-GALANTE
+│       │   ├── 2024-01-20-GALANTE-300.png
+│       │   ├── 2024-01-20-GALANTE-72.png
+│       │   ├── 2024-01-20-GALANTE.pdf
+│       │   └── 2024-01-20-GALANTE.tex
+│       ├── 2024-02-17-PAX
+│       │   ├── 2024-02-17-PAX-300.png
+│       │   ├── 2024-02-17-PAX-72.png
+│       │   ├── 2024-02-17-PAX.pdf
+│       │   └── 2024-02-17-PAX.tex
+│       └── 2024-03-23-ADS
+│           ├── 2024-03-23-ADS-300.png
+│           ├── 2024-03-23-ADS-72.png
+│           ├── 2024-03-23-ADS.pdf
+│           └── 2024-03-23-ADS.tex
+├── archidipietra.md
+├── assets
+│   ├── css
+│   │   ├── main.scss
+│   │   └── skins
+│   │       ├── dark.scss
+│   │       ├── default.scss
+│   │       └── light.scss
+│   └── js
+│       ├── lunr
+│       │   ├── lunr.da.min.js
+│       │   ├── lunr.de.min.js
+│       │   ├── lunr.du.min.js
+│       │   ├── lunr.es.min.js
+│       │   ├── lunr.fi.min.js
+│       │   ├── lunr.fr.min.js
+│       │   ├── lunr.hu.min.js
+│       │   ├── lunr.it.min.js
+│       │   ├── lunr.ja.min.js
+│       │   ├── lunr.jp.min.js
+│       │   ├── lunr.min.js
+│       │   ├── lunr.multi.min.js
+│       │   ├── lunr.no.min.js
+│       │   ├── lunr.pt.min.js
+│       │   ├── lunr.ro.min.js
+│       │   ├── lunr.ru.min.js
+│       │   ├── lunr.stemmer.support.min.js
+│       │   ├── lunr.sv.min.js
+│       │   └── lunr.tr.min.js
+│       ├── main.js
+│       ├── main.min.js
+│       ├── plugins
+│       │   ├── jquery.smooth-scroll.js
+│       │   ├── jquery.smooth-scroll.min.js
+│       │   ├── lity.js
+│       │   ├── lity.min.js
+│       │   └── table-of-contents.js
+│       └── search-data.js
+├── banner.js
+├── browserconfig.xml
+├── categories.md
+├── domeniche.md
+├── favicon-16x16.png
+├── favicon-32x32.png
+├── favicon.ico
+├── images
+│   ├── 2023-11-adp-hero.jpg
+│   ├── ac.jpg
+│   ├── galante.jpg
+│   ├── gs.jpg
+│   ├── lazzaro
+│   │   ├── 2023-07-12-lazzaro
+│   │   │   └── ac
+│   │   │       ├── edit
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-01.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-02.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-03.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-04.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-05.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-06.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-07.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-08.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-09.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-10.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-11.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-12.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-13.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-14.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-15.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-16.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-17.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-18.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-19.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-20.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-21.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-22.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-23.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-24.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-25.jpg
+│   │   │       │   ├── 2023-07-12-lazzaro-ac-26.jpg
+│   │   │       │   └── 2023-07-12-lazzaro-ac-27.jpg
+│   │   │       ├── org
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231177.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231198.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231204.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231211.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231231.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231233.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231242.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231243.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231249.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231267.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231268.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231272.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231274.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231284.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231286.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231291.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231296.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231300.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231310.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231311.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231312.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231327.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231339.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231346.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231353.jpg
+│   │   │       │   ├── lazzaro-artescienza-luglio-20231355.jpg
+│   │   │       │   └── lazzaro-artescienza-luglio-20231364.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2023-07-12-lazzaro-ac-01.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-02.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-03.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-04.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-05.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-06.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-07.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-08.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-09.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-10.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-11.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-12.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-13.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-14.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-15.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-16.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-17.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-18.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-19.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-20.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-21.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-22.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-23.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-24.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-25.jpg
+│   │   │           ├── 2023-07-12-lazzaro-ac-26.jpg
+│   │   │           └── 2023-07-12-lazzaro-ac-27.jpg
+│   │   ├── 2023-07-12-lazzaro-hero.jpg
+│   │   ├── 2023-07-12-lazzaro-t.jpg
+│   │   ├── 2023-09-03-lazzaro
+│   │   │   ├── ac
+│   │   │   │   ├── edit
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-01.jpg
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-02.jpg
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-03.jpg
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-04.jpg
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-05.jpg
+│   │   │   │   │   ├── 2023-09-03-lazzaro-ac-06.jpg
+│   │   │   │   │   └── 2023-09-03-lazzaro-ac-07.jpg
+│   │   │   │   ├── org
+│   │   │   │   │   ├── lazzaro_030920231940.jpg
+│   │   │   │   │   ├── lazzaro_030920231944.jpg
+│   │   │   │   │   ├── lazzaro_030920231954.jpg
+│   │   │   │   │   ├── lazzaro_030920231956.jpg
+│   │   │   │   │   ├── lazzaro_030920231959.jpg
+│   │   │   │   │   ├── lazzaro_030920231960.jpg
+│   │   │   │   │   └── lazzaro_030920231961.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-01.jpg
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-02.jpg
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-03.jpg
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-04.jpg
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-05.jpg
+│   │   │   │       ├── 2023-09-03-lazzaro-ac-06.jpg
+│   │   │   │       └── 2023-09-03-lazzaro-ac-07.jpg
+│   │   │   └── marco-iacobucci
+│   │   │       ├── edit
+│   │   │       │   ├── 2023-09-03-lazzaro-mi-01.jpg
+│   │   │       │   ├── 2023-09-03-lazzaro-mi-02.jpg
+│   │   │       │   ├── 2023-09-03-lazzaro-mi-03.jpg
+│   │   │       │   ├── 2023-09-03-lazzaro-mi-04.jpg
+│   │   │       │   └── 2023-09-03-lazzaro-mi-05.jpg
+│   │   │       ├── org
+│   │   │       │   ├── arte-03-09-0272.jpg
+│   │   │       │   ├── arte-03-09-0299.jpg
+│   │   │       │   ├── arte-03-09-0368.jpg
+│   │   │       │   ├── arte-03-09-0595.jpg
+│   │   │       │   └── arte-03-09-0638.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2023-09-03-lazzaro-mi-01.jpg
+│   │   │           ├── 2023-09-03-lazzaro-mi-02.jpg
+│   │   │           ├── 2023-09-03-lazzaro-mi-03.jpg
+│   │   │           ├── 2023-09-03-lazzaro-mi-04.jpg
+│   │   │           └── 2023-09-03-lazzaro-mi-05.jpg
+│   │   ├── 2023-09-03-lazzaro-hero.jpg
+│   │   ├── 2023-09-03-lazzaro-t.jpg
+│   │   ├── 2023-10-11-lazzaro
+│   │   │   └── ac
+│   │   │       ├── edit
+│   │   │       │   ├── 2023-10-11-lazzaro-ac-01.jpg
+│   │   │       │   └── 2023-10-11-lazzaro-ac-02.jpg
+│   │   │       ├── org
+│   │   │       │   ├── lazzaro_11102023-2511.jpg
+│   │   │       │   └── lazzaro_11102023-2529.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2023-10-11-lazzaro-ac-01.jpg
+│   │   │           └── 2023-10-11-lazzaro-ac-02.jpg
+│   │   ├── 2023-10-11-lazzaro-hero.jpg
+│   │   ├── 2023-10-11-lazzaro-t.jpeg
+│   │   ├── 2023-thin-leap-es
+│   │   │   ├── edit
+│   │   │   │   ├── 2023-thin-leap-es-01.jpg
+│   │   │   │   ├── 2023-thin-leap-es-02.jpg
+│   │   │   │   ├── 2023-thin-leap-es-03.jpg
+│   │   │   │   ├── 2023-thin-leap-es-04.jpg
+│   │   │   │   ├── 2023-thin-leap-es-05.jpg
+│   │   │   │   ├── 2023-thin-leap-es-06.jpg
+│   │   │   │   ├── 2023-thin-leap-es-07.jpg
+│   │   │   │   ├── 2023-thin-leap-es-08.jpg
+│   │   │   │   ├── 2023-thin-leap-es-09.jpg
+│   │   │   │   ├── 2023-thin-leap-es-10.jpg
+│   │   │   │   ├── 2023-thin-leap-es-11.jpg
+│   │   │   │   ├── 2023-thin-leap-es-12.jpg
+│   │   │   │   ├── 2023-thin-leap-es-13.jpg
+│   │   │   │   ├── 2023-thin-leap-es-14.jpg
+│   │   │   │   ├── 2023-thin-leap-es-15.jpg
+│   │   │   │   ├── 2023-thin-leap-es-16.jpg
+│   │   │   │   ├── 2023-thin-leap-es-17.jpg
+│   │   │   │   ├── 2023-thin-leap-es-18.jpg
+│   │   │   │   ├── 2023-thin-leap-es-19.jpg
+│   │   │   │   ├── 2023-thin-leap-es-20.jpg
+│   │   │   │   ├── 2023-thin-leap-es-21.jpg
+│   │   │   │   ├── 2023-thin-leap-es-22.jpg
+│   │   │   │   ├── 2023-thin-leap-es-23.jpg
+│   │   │   │   ├── 2023-thin-leap-es-24.jpg
+│   │   │   │   ├── 2023-thin-leap-es-25.jpg
+│   │   │   │   └── 2023-thin-leap-es-26.jpg
+│   │   │   ├── org
+│   │   │   │   ├── thin-leap-1.jpg
+│   │   │   │   ├── thin-leap-10.jpg
+│   │   │   │   ├── thin-leap-11.jpg
+│   │   │   │   ├── thin-leap-12.jpg
+│   │   │   │   ├── thin-leap-13.jpg
+│   │   │   │   ├── thin-leap-14.jpg
+│   │   │   │   ├── thin-leap-15.jpg
+│   │   │   │   ├── thin-leap-16.jpg
+│   │   │   │   ├── thin-leap-17.jpg
+│   │   │   │   ├── thin-leap-18.jpg
+│   │   │   │   ├── thin-leap-19.jpg
+│   │   │   │   ├── thin-leap-2.jpg
+│   │   │   │   ├── thin-leap-20.jpg
+│   │   │   │   ├── thin-leap-21.jpg
+│   │   │   │   ├── thin-leap-22.jpg
+│   │   │   │   ├── thin-leap-23.jpg
+│   │   │   │   ├── thin-leap-24.jpg
+│   │   │   │   ├── thin-leap-25.jpg
+│   │   │   │   ├── thin-leap-26.jpg
+│   │   │   │   ├── thin-leap-3.jpg
+│   │   │   │   ├── thin-leap-4.jpg
+│   │   │   │   ├── thin-leap-5.jpg
+│   │   │   │   ├── thin-leap-6.jpg
+│   │   │   │   ├── thin-leap-7.jpg
+│   │   │   │   ├── thin-leap-8.jpg
+│   │   │   │   └── thin-leap-9.jpg
+│   │   │   └── thumb
+│   │   │       ├── 2023-thin-leap-es-01.jpg
+│   │   │       ├── 2023-thin-leap-es-02.jpg
+│   │   │       ├── 2023-thin-leap-es-03.jpg
+│   │   │       ├── 2023-thin-leap-es-04.jpg
+│   │   │       ├── 2023-thin-leap-es-05.jpg
+│   │   │       ├── 2023-thin-leap-es-06.jpg
+│   │   │       ├── 2023-thin-leap-es-07.jpg
+│   │   │       ├── 2023-thin-leap-es-08.jpg
+│   │   │       ├── 2023-thin-leap-es-09.jpg
+│   │   │       ├── 2023-thin-leap-es-10.jpg
+│   │   │       ├── 2023-thin-leap-es-11.jpg
+│   │   │       ├── 2023-thin-leap-es-12.jpg
+│   │   │       ├── 2023-thin-leap-es-13.jpg
+│   │   │       ├── 2023-thin-leap-es-14.jpg
+│   │   │       ├── 2023-thin-leap-es-15.jpg
+│   │   │       ├── 2023-thin-leap-es-16.jpg
+│   │   │       ├── 2023-thin-leap-es-17.jpg
+│   │   │       ├── 2023-thin-leap-es-18.jpg
+│   │   │       ├── 2023-thin-leap-es-19.jpg
+│   │   │       ├── 2023-thin-leap-es-20.jpg
+│   │   │       ├── 2023-thin-leap-es-21.jpg
+│   │   │       ├── 2023-thin-leap-es-22.jpg
+│   │   │       ├── 2023-thin-leap-es-23.jpg
+│   │   │       ├── 2023-thin-leap-es-24.jpg
+│   │   │       ├── 2023-thin-leap-es-25.jpg
+│   │   │       └── 2023-thin-leap-es-26.jpg
+│   │   └── lazzaro-hero.jpg
+│   ├── leo.jpg
+│   ├── leviatano-hero.jpg
+│   ├── mdg.jpg
+│   ├── posts
+│   │   ├── 2023-09-11-13-SHORT-THEATRE
+│   │   │   └── ac
+│   │   │       ├── 2023-09-11-13-ShTh-hero.jpg
+│   │   │       ├── edit
+│   │   │       │   ├── 2023-09-11-13-ShTh-01.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-02.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-03.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-04.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-05.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-06.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-07.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-08.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-09.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-10.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-11.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-12.jpg
+│   │   │       │   ├── 2023-09-11-13-ShTh-13.jpg
+│   │   │       │   └── 2023-09-11-13-ShTh-14.jpg
+│   │   │       ├── org
+│   │   │       │   ├── 2023-11-workshop-short-theatre2024.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2026.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2030.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2039.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2041.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2046.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2048.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2052.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2054.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2057.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2061.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2070.jpg
+│   │   │       │   ├── 2023-11-workshop-short-theatre2086.jpg
+│   │   │       │   └── 2023-11-workshop-short-theatre2088.jpg
+│   │   │       └── thumb
+│   │   │           ├── 2023-09-11-13-ShTh-01.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-02.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-03.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-04.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-05.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-06.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-07.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-08.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-09.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-10.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-11.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-12.jpg
+│   │   │           ├── 2023-09-11-13-ShTh-13.jpg
+│   │   │           └── 2023-09-11-13-ShTh-14.jpg
+│   │   ├── 2023-12-05-TRIO-FEEDBACK
+│   │   │   ├── 2023-12-05-tf-hero.jpg
+│   │   │   ├── edit
+│   │   │   │   ├── 2023-thin-leap-es-01.jpg
+│   │   │   │   ├── 2023-thin-leap-es-02.jpg
+│   │   │   │   └── 2023-thin-leap-es-03.jpg
+│   │   │   ├── org
+│   │   │   │   ├── IMG_3441.jpg
+│   │   │   │   ├── IMG_3442.jpg
+│   │   │   │   └── IMG_3625.jpg
+│   │   │   └── thumb
+│   │   │       ├── 2023-12-05-tf-01.jpg
+│   │   │       ├── 2023-12-05-tf-02.jpg
+│   │   │       └── 2023-12-05-tf-03.jpg
+│   │   └── 2024-03-24-DAPDI-III
+│   │       ├── edit
+│   │       │   ├── 2024-03-24-dapdi3-01.jpg
+│   │       │   ├── 2024-03-24-dapdi3-02.jpg
+│   │       │   ├── 2024-03-24-dapdi3-03.jpg
+│   │       │   ├── 2024-03-24-dapdi3-04.jpg
+│   │       │   ├── 2024-03-24-dapdi3-05.jpg
+│   │       │   ├── 2024-03-24-dapdi3-06.jpg
+│   │       │   ├── 2024-03-24-dapdi3-07.jpg
+│   │       │   ├── 2024-03-24-dapdi3-08.jpg
+│   │       │   ├── 2024-03-24-dapdi3-09.jpg
+│   │       │   ├── 2024-03-24-dapdi3-10.jpg
+│   │       │   ├── 2024-03-24-dapdi3-11.jpg
+│   │       │   ├── 2024-03-24-dapdi3-12.jpg
+│   │       │   ├── 2024-03-24-dapdi3-13.jpg
+│   │       │   ├── 2024-03-24-dapdi3-14.jpg
+│   │       │   ├── 2024-03-24-dapdi3-15.jpg
+│   │       │   ├── 2024-03-24-dapdi3-16.jpg
+│   │       │   ├── 2024-03-24-dapdi3-17.jpg
+│   │       │   ├── 2024-03-24-dapdi3-18.jpg
+│   │       │   ├── 2024-03-24-dapdi3-19.jpg
+│   │       │   ├── 2024-03-24-dapdi3-20.jpg
+│   │       │   ├── 2024-03-24-dapdi3-21.jpg
+│   │       │   ├── 2024-03-24-dapdi3-22.jpg
+│   │       │   ├── 2024-03-24-dapdi3-23.jpg
+│   │       │   ├── 2024-03-24-dapdi3-24.jpg
+│   │       │   ├── 2024-03-24-dapdi3-25.jpg
+│   │       │   └── 2024-03-24-dapdi3-26.jpg
+│   │       ├── org
+│   │       │   ├── IMG_6132.jpg
+│   │       │   ├── IMG_6135.jpg
+│   │       │   ├── IMG_6140.jpg
+│   │       │   ├── IMG_6143.jpg
+│   │       │   ├── IMG_6151.jpg
+│   │       │   ├── IMG_6154.jpg
+│   │       │   ├── IMG_6157.jpg
+│   │       │   ├── IMG_6159.jpg
+│   │       │   ├── IMG_6161.jpg
+│   │       │   ├── IMG_6164.jpg
+│   │       │   ├── IMG_6165.jpg
+│   │       │   ├── IMG_6169.jpg
+│   │       │   ├── IMG_6179.jpg
+│   │       │   ├── IMG_6181.jpg
+│   │       │   ├── IMG_6185.jpg
+│   │       │   ├── IMG_6189.jpg
+│   │       │   ├── IMG_6201.jpg
+│   │       │   ├── IMG_6208.jpg
+│   │       │   ├── IMG_6215.jpg
+│   │       │   ├── IMG_6223.jpg
+│   │       │   ├── IMG_6229.jpg
+│   │       │   ├── IMG_6230.jpg
+│   │       │   ├── IMG_6231.jpg
+│   │       │   ├── IMG_6236.jpg
+│   │       │   ├── IMG_6245.jpg
+│   │       │   └── IMG_6247.jpg
+│   │       └── thumb
+│   │           ├── 2024-03-24-dapdi3-01.jpg
+│   │           ├── 2024-03-24-dapdi3-02.jpg
+│   │           ├── 2024-03-24-dapdi3-03.jpg
+│   │           ├── 2024-03-24-dapdi3-04.jpg
+│   │           ├── 2024-03-24-dapdi3-05.jpg
+│   │           ├── 2024-03-24-dapdi3-06.jpg
+│   │           ├── 2024-03-24-dapdi3-07.jpg
+│   │           ├── 2024-03-24-dapdi3-08.jpg
+│   │           ├── 2024-03-24-dapdi3-09.jpg
+│   │           ├── 2024-03-24-dapdi3-10.jpg
+│   │           ├── 2024-03-24-dapdi3-11.jpg
+│   │           ├── 2024-03-24-dapdi3-12.jpg
+│   │           ├── 2024-03-24-dapdi3-13.jpg
+│   │           ├── 2024-03-24-dapdi3-14.jpg
+│   │           ├── 2024-03-24-dapdi3-15.jpg
+│   │           ├── 2024-03-24-dapdi3-16.jpg
+│   │           ├── 2024-03-24-dapdi3-17.jpg
+│   │           ├── 2024-03-24-dapdi3-18.jpg
+│   │           ├── 2024-03-24-dapdi3-19.jpg
+│   │           ├── 2024-03-24-dapdi3-20.jpg
+│   │           ├── 2024-03-24-dapdi3-21.jpg
+│   │           ├── 2024-03-24-dapdi3-22.jpg
+│   │           ├── 2024-03-24-dapdi3-23.jpg
+│   │           ├── 2024-03-24-dapdi3-24.jpg
+│   │           ├── 2024-03-24-dapdi3-25.jpg
+│   │           └── 2024-03-24-dapdi3-26.jpg
+│   ├── vedovaIDT.jpg
+│   └── vituccif.jpg
+├── index.html
+├── jekyll-theme-so-simple.gemspec
+├── lazzaro.md
+├── leap-web.txt
+├── mstile-150x150.png
+├── package-lock.json
+├── package.json
+├── posts.md
+├── qr
+│   ├── QR_Code_1700578159.png
+│   ├── QR_Code_1700578175.png
+│   ├── QR_Code_1700578355.png
+│   └── QR_Code_1700578374.png
+├── safari-pinned-tab.svg
+├── search.md
+├── site.webmanifest
+└── tags.md
+
+252 directories, 1729 files
