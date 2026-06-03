@@ -4,9 +4,6 @@ image:
   path: images/leviatano-hero.jpg
   thumbnail:
   caption:
-gallery:
-- url:
-  image_path: 
 ---
 
 Domenica venticinque febbraio duemilaventiquattro dalle ore dieci alle ore diciotto

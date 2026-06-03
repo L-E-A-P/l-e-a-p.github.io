@@ -7,9 +7,6 @@ categories:
   - Saltati
 tags:
   - Workshop
-gallery:
-- url: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/edit/2024-02-17-adp-01.jpg
-  image_path: archi-di-pietra/img/2024-02-17-adp-quarto-respiro/ac/thumb/2024-02-17-adp-01.jpg
 ---
 
 Domenica ventiquattro marzo duemilaventiquattro dalle ore otto alle ore diciassette

@@ -4,9 +4,6 @@ image:
   path: images/leviatano-hero.jpg
   thumbnail:
   caption:
-gallery:
-- url:
-  image_path: 
 ---
 
 Domenica ventuno aprile duemilaventiquattro dalle ore otto alle ore diciassette

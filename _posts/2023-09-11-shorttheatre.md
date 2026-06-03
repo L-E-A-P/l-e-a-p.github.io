@@ -7,35 +7,7 @@ categories:
   - Saltati
 tags:
   - Bottega
-gallery:
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-01.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-01.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-02.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-02.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-03.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-03.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-04.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-04.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-05.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-05.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-06.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-06.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-07.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-07.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-08.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-08.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-09.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-09.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-10.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-10.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-11.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-11.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-12.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-12.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-13.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-13.jpg
-- url: images/posts/2023-09-11-13-SHORT-THEATRE/ac/edit/2023-09-11-13-ShTh-14.jpg
-  image_path: images/posts/2023-09-11-13-SHORT-THEATRE/ac/thumb/2023-09-11-13-ShTh-14.jpg
+gallery_path: /images/posts/2023-09-11-13-SHORT-THEATRE/ac/
 ---
 
 11–12–13 settembre  | h 10–13
@@ -70,4 +42,4 @@ laboratorio di pratiche acustiche
  - [The Environment we feel](https://www.shorttheatre.org/the-environment-we-feel/)
  - [Short Theatre 2023](https://www.teatrodiroma.net/doc/8196/short-theatre-2023)
 
-{% include gallery %}
+{% include gallery path=page.gallery_path %}
