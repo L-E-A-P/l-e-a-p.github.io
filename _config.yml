@@ -263,3 +263,4 @@ exclude:
   - TECHNICAL_REPORT.md
   - _config_production.yml.backup
   - "*.backup"
+  - docs/
