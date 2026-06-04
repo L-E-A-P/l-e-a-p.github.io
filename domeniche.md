@@ -3,7 +3,7 @@ title: domeniche alla periferia dell'impero
 layout: collection
 entries_layout: grid
 permalink: /domeniche/
-collection: domeniche
+collection: dapdi
 image: images/leviatano-hero.jpg
 ---
 

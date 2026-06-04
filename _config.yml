@@ -109,9 +109,9 @@ collections:
   bottega:
     output: true
     permalink: /:collection/:path/
-  domeniche:
+  dapdi:
     output: true
-    permalink: /:collection/:path/
+    permalink: /domeniche/:path/
   lazzaro:
     output: true
     permalink: /:collection/:path/
@@ -169,10 +169,10 @@ defaults:
       share: true
       author: LEAP
 
-  # Domeniche collection
+  # Domeniche (collezione dapdi, submodule _dapdi)
   - scope:
-      path: "_domeniche"
-      type: domeniche
+      path: "_dapdi"
+      type: dapdi
     values:
       layout: project
       comments: true

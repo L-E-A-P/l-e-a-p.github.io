@@ -7,3 +7,6 @@
 [submodule "_lazzaro"]
 	path = _lazzaro
 	url = git@github.com:L-E-A-P/_lazzaro.git
+[submodule "_dapdi"]
+	path = _dapdi
+	url = git@github.com:L-E-A-P/_dapdi.git
