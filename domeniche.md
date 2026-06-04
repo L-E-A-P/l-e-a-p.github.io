@@ -7,7 +7,7 @@ collection: domeniche
 image: images/leviatano-hero.jpg
 ---
 
-> «All'estrema periferia dell'impero culturale.»
+> All'estrema periferia dell'impero culturale.
 
 Il titolo nasce da due semine annidate. La prima è di Umberto Eco, che negli anni
 Settanta raccoglie i suoi articoli per i quotidiani in _Dalla periferia dell'impero_.
@@ -35,10 +35,12 @@ collinare, sono sbocciati progetti tutti diversi tra loro, ciascuno apicalmente 
 Perché l'impero è anche Roma, incapace di offrire spazi simili. Il LEAP è periferia
 dell'impero: non istituzione, ma _dis-istituzione_.
 
-> «Se questo mondo fosse un piano infinito e navigando a oriente noi potessimo sempre
+L'invito a salpare è in una [lettera ai leapiani]({{ '/domeniche/doc/2023-12-29-lettera-leapiani.pdf' | relative_url }}){:target="_blank"} del dicembre 2023.
+
+> Se questo mondo fosse un piano infinito e navigando a oriente noi potessimo sempre
 raggiungere nuove distanze e scoprire cose più dolci e nuove di tutte le Cicladi o le
 Isole del Re Salomone, allora il viaggio conterrebbe una promessa. Ma, nell'inseguire
 quei lontani misteri di cui sogniamo, o nella caccia tormentosa di quel fantasma
 demoniaco che prima o poi nuota dinanzi a tutti i cuori umani, nella caccia di tali cose
 intorno a questo globo, esse o ci conducono in vuoti labirinti o ci lasciano sommersi a
-metà strada.»
+metà strada.
