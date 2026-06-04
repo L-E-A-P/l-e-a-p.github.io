@@ -7,7 +7,7 @@ categories:
   - Saltati
 tags:
   - Naufraghi
-gallery_path: /images/posts/2023-12-05-TRIO-FEEDBACK/
+gallery_path: /images/posts/2023-12-05-TRIO-FEEDBACK/ac/
 ---
 
 <!--more-->
