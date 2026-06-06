@@ -106,24 +106,25 @@ def main():
         return
 
     for i, f in enumerate(files, args.start):
-        name = f"{evento}-{i:02d}{f.suffix.lower()}"
-        # org: copia byte-per-byte dell'originale (nessuna trasformazione)
-        org_path = dest / "org" / name
+        stem = f"{evento}-{i:02d}"
+        # org: copia byte-per-byte dell'originale, estensione originale conservata
+        # (es. i TIFF restano TIFF: org è la sorgente lossless).
+        org_path = dest / "org" / f"{stem}{f.suffix.lower()}"
         org_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(f, org_path)
 
-        # edit/thumb: derivati, con orientamento EXIF applicato
+        # edit/thumb: derivati SEMPRE in JPEG (web), con orientamento EXIF applicato
         im = ImageOps.exif_transpose(Image.open(f))
         w, h = im.size
 
         edit = im.resize((round(w * args.edit_h / h), args.edit_h), Image.LANCZOS)
-        save_resized(edit, dest / "edit" / name, quality=args.quality)
+        save_resized(edit, dest / "edit" / f"{stem}.jpg", quality=args.quality)
 
         scale = args.thumb_max / max(w, h)
         thumb = im.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
-        save_resized(thumb, dest / "thumb" / name, quality=args.quality)
+        save_resized(thumb, dest / "thumb" / f"{stem}.jpg", quality=args.quality)
 
-        print(f"  {f.name} -> {name}")
+        print(f"  {f.name} -> {stem} (org{f.suffix.lower()}, edit/thumb .jpg)")
 
     print(f"\nFatto. Ora applica il watermark agli edit:")
     print(f"  python3 tools/watermark/watermark.py {dest}/edit --in-place")
