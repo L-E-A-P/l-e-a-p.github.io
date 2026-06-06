@@ -29,8 +29,15 @@ gallery_path: /images/posts/EVENTO/ac/
 
 Il motore del tema (`so-leap-theme/_includes/gallery`) è *source-agnostic*: prende le miniature da `thumb/` e le immagini complete del lightbox da `edit/`, scorrendo sia le collezioni sia i **file statici** di questo repo (`site.static_files`). Le immagini delle pagine delle collezioni (`_lazzaro`, `_archi-di-pietra`) stanno invece nei rispettivi submodule.
 
-## Watermark (logo + nome fotografo)
-Lo script `tools/watermark/watermark.py` applica il watermark storico (monogramma LEAP bianco in basso a sinistra + nome del fotografo in Datalegreya Thin) alle immagini in `edit/`. Sostituisce il vecchio flusso manuale con app a pagamento.
+## Pipeline immagini (`tools/`)
+Due passi separati, stack Python + Pillow (`pip3 install --user Pillow pyyaml`):
+
+**1. Organizzazione** — `tools/organize/organize.py` (vedi `tools/organize/README.md`): da un mucchio di originali genera `<evento>/<sigla>/{org,edit,thumb}` (org = copia, edit = altezza 1080, thumb = lato lungo 400), rinominando in `EVENTO-NN`. È la versione generale e cross-platform dello storico `_domeniche/bin/import-domenica.sh` (bash+`sips`).
+```bash
+python3 tools/organize/organize.py <originali> _lazzaro/img/EVENTO ac
+```
+
+**2. Watermark** — `tools/watermark/watermark.py` (vedi `tools/watermark/README.md`): applica il watermark storico (monogramma LEAP bianco in basso a sinistra + nome del fotografo in Datalegreya Thin) alle immagini in `edit/`. Sostituisce il vecchio flusso manuale con app a pagamento.
 
 ```bash
 # nome dedotto dalla sigla nel percorso (.../<sigla>/edit/)
