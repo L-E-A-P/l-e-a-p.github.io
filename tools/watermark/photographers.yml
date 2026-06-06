@@ -1,0 +1,15 @@
+# Database sigle fotografo -> nome esteso, usato da watermark.py
+#
+# - core LEAPHZ: sigla breve, ricorrente (sotto).
+# - contributori occasionali: NON serve aggiungerli qui; basta nominare la
+#   cartella "nome-cognome" (es. marco-iacobucci/) e lo script normalizza da solo.
+# - sigla nuova ricorrente: watermark.py la chiede e la aggiunge qui in coda.
+
+ac: Alice Cortegiani
+dt: Davide Tedesco
+gs: Giuseppe Silvi
+lz: Leonardo Zaccone
+mdg: Marco Di Gasbarro
+grdm: Giulio Romano De Mattia
+ff: Francesco Ferracuti
+pb: Pietro Barale
