@@ -36,8 +36,9 @@ tenendo gli originali senza logo in `org/`.
 con cartella `nome-cognome` (così il database resta pulito).
 
 ## Geometria
-Parametri come frazioni della larghezza immagine (default tarati sugli esempi
-storici, immagine 4:3): `--logo-w 0.060`, `--margin 0.009`, `--gap 0.0035`,
+Parametri come frazioni del **lato lungo** dell'immagine (così il watermark è
+coerente fra orizzontali e verticali; default tarati sugli esempi storici):
+`--logo-w 0.060`, `--margin 0.009`, `--gap 0.0035`,
 `--name-h 0.0105`, `--tracking 0.005` (spaziatura lettere, frazione cap height).
 
 Il **corpo del nome** si regola con `--stroke` (default `0.4`), espresso in

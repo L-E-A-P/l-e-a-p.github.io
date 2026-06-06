@@ -19,7 +19,8 @@ Esempi:
     ./watermark.py foto_in/ -n "Alice Cortegiani" -o foto_out/
     ./watermark.py .../ac/edit --in-place        # sovrascrive (serve sorgente in org/)
 
-Geometria (frazioni della larghezza immagine salvo nota), tarata sugli esempi storici:
+Geometria (frazioni del LATO LUNGO dell'immagine salvo nota), tarata sugli esempi
+storici; usare il lato lungo rende il watermark coerente su orizzontali e verticali:
     --logo-w   0.060   larghezza del logo
     --margin   0.009   margine da sinistra e dal fondo
     --gap      0.0035  spazio fra logo e nome
@@ -159,11 +160,15 @@ def watermark_image(
 ):
     im = Image.open(src).convert("RGBA")
     W, H = im.size
-    margin = round(W * margin_frac)
-    gap = round(W * gap_frac)
+    # le dimensioni del watermark sono frazioni del LATO LUNGO, così appaiono
+    # coerenti su orizzontali e verticali (sugli orizzontali il lato lungo è la
+    # larghezza, quindi le gallerie già fatte restano identiche).
+    ref = max(W, H)
+    margin = round(ref * margin_frac)
+    gap = round(ref * gap_frac)
 
     # logo ridimensionato (mantiene l'alpha proprio, eventualmente attenuato)
-    logo_w = round(W * logo_w_frac)
+    logo_w = round(ref * logo_w_frac)
     logo_h = round(logo_w * logo_img.height / logo_img.width)
     logo = logo_img.resize((logo_w, logo_h), Image.LANCZOS)
     if opacity < 255:
@@ -171,7 +176,7 @@ def watermark_image(
         logo.putalpha(a)
 
     # nome (Datalegreya rende maiuscolo dai tasti minuscoli), supersampled
-    cap_px = round(W * name_h_frac)
+    cap_px = round(ref * name_h_frac)
     fill = (255, 255, 255, opacity)
     name_layer = render_name_layer(name.lower(), font_path, cap_px, tracking_frac, stroke_px, fill)
 
