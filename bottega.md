@@ -1,5 +1,5 @@
 ---
-title: Bottega
+title: Bottega Radicale
 layout: collection
 entries_layout: grid
 permalink: /bottega/

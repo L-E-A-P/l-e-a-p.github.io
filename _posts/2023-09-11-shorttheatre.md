@@ -6,7 +6,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Saltati
 tags:
-  - Bottega
+  - Bottega Radicale
 gallery_path: /images/posts/2023-09-11-13-SHORT-THEATRE/ac/
 ---
 

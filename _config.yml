@@ -159,7 +159,7 @@ defaults:
       share: true
       author: LEAP
 
-  # Bottega
+  # Bottega Radicale (slug: bottega)
   - scope:
       path: "_bottega/web"
       type: bottega

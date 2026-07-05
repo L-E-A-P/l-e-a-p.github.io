@@ -49,7 +49,9 @@ python3 tools/watermark/watermark.py foto_in/ -n "Alice Cortegiani" -o foto_out/
 
 Mappa sigla→nome in `tools/watermark/photographers.yml`; le sigle nuove vengono chieste e salvate (in TTY). Asset: font in `assets/fonts/Datalegreya-Thin.otf`, logo in `tools/watermark/leap-logo-w.png`. Dipendenze: `pip3 install --user Pillow pyyaml`.
 
-## Bottega (progetti del laboratorio sul sito)
+## Bottega Radicale (progetti del laboratorio sul sito)
+
+Nome pubblico: **Bottega Radicale** (slug/URL tecnici restano `bottega`).
 
 Convenzioni complete in `_bottega/CLAUDE.md` (sezione «Web»). In sintesi:
 un post per progetto in `_bottega/web/<slug>.md` (URL `/bottega/web/<slug>/`,
