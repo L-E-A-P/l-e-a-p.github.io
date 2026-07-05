@@ -262,5 +262,12 @@ exclude:
   - LICENSE
   - TECHNICAL_REPORT.md
   - _config_production.yml.backup
+  # Sorgenti immagini/video: in git come archivio, mai nel sito pubblicato
+  - "**/org"
+  - "**/raw"
+  - "**/*.mov"
+  - "**/*.MOV"
+  - "**/*.heic"
+  - "**/*.HEIC"
   - "*.backup"
   - docs/
