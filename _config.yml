@@ -263,8 +263,12 @@ exclude:
   - TECHNICAL_REPORT.md
   - _config_production.yml.backup
   # Sorgenti immagini/video: in git come archivio, mai nel sito pubblicato
+  # (servono i pattern a livello FILE: le collezioni confrontano l'exclude
+  # col percorso dei singoli file, mai con le directory)
   - "**/org"
+  - "**/org/**"
   - "**/raw"
+  - "**/raw/**"
   - "**/*.mov"
   - "**/*.MOV"
   - "**/*.heic"
