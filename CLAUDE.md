@@ -12,10 +12,9 @@ images/posts/EVENTO/<sigla-fotografo>/thumb/  miniature mostrate nella griglia
 (NB: la vecchia cartella `full/` è legacy, va rinominata in `edit/`.)
 
 ## Sigle fotografo
-- `ac` = Alice Cortegiani
-- `dt` = Davide Tedesco
-- altre sigle in uso nei repo LEAP: `gmd`, `lz`, `gs`
-- nome esteso da normalizzare a sigla: `marco-iacobucci`
+La fonte di verità è `tools/watermark/photographers.yml` (ac, dt, gs, lz,
+mdg, grdm, ff, pc, ml, sla, sl, …). Mai duplicare o invertire sigle
+esistenti; le nuove ricorrenti si aggiungono lì.
 
 ## Uso nei post
 Si imposta `gallery_path` nel front-matter e si fa un include **per cartella-fotografo** (il match `thumb/` del motore NON è ricorsivo):
@@ -49,3 +48,13 @@ python3 tools/watermark/watermark.py foto_in/ -n "Alice Cortegiani" -o foto_out/
 ```
 
 Mappa sigla→nome in `tools/watermark/photographers.yml`; le sigle nuove vengono chieste e salvate (in TTY). Asset: font in `assets/fonts/Datalegreya-Thin.otf`, logo in `tools/watermark/leap-logo-w.png`. Dipendenze: `pip3 install --user Pillow pyyaml`.
+
+## Bottega (progetti del laboratorio sul sito)
+
+Convenzioni complete in `_bottega/CLAUDE.md` (sezione «Web»). In sintesi:
+un post per progetto in `_bottega/web/<slug>.md` (URL `/bottega/web/<slug>/`,
+griglia per `date:` decrescente), immagini in
+`_bottega/img/<progetto>/<sessione>/<sigla>/{org,edit,thumb}` processate con
+`tools/bottega/process-session.sh` e hero/-t con `tools/bottega/make-hero.py`.
+`org/`, `raw/`, `*.mov`, `*.heic` restano in git ma sono esclusi dal sito
+(exclude a livello FILE in `_config.yml`, es. `**/org/**`).
