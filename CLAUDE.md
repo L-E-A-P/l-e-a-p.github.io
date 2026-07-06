@@ -60,3 +60,22 @@ griglia per `date:` decrescente), immagini in
 `tools/bottega/process-session.sh` e hero/-t con `tools/bottega/make-hero.py`.
 `org/`, `raw/`, `*.mov`, `*.heic` restano in git ma sono esclusi dal sito
 (exclude a livello FILE in `_config.yml`, es. `**/org/**`).
+
+## Build e deploy del sito (GitHub Pages)
+
+Il sito è **www.leaphz.net**, build **legacy** di GitHub Pages (Jekyll gira
+sui server GitHub a ogni push sul repo principale; i push nei submodule da
+soli NON muovono il sito — serve il bump del puntatore qui). Build normale
+~5 min. Strumenti di controllo (serve `gh` autenticato):
+
+    gh api repos/l-e-a-p/l-e-a-p.github.io/pages/builds/latest   # stato build
+    gh api -X POST repos/l-e-a-p/l-e-a-p.github.io/pages/builds  # rebuild forzata
+
+- Build incagliata (>10 min in `building`): rebuild forzata, risolve.
+- `Deployment failed, try again later` nelle Actions: transitorio lato
+  GitHub, non è colpa dei contenuti — un nuovo push o la rebuild lo supera.
+- La CDN cachea ~10 min (`max-age=600`): verificare con `?v=<timestamp>`.
+- **Limite rigido GitHub: 100 MB per file** (GH001, respinge il push):
+  i file oltre soglia (video) restano in archivio locale, gitignorati con nota.
+- L'`exclude:` in `_config.yml` per le collezioni funziona solo con pattern
+  a livello FILE (es. `**/org/**`, non `**/org`).
