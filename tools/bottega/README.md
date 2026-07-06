@@ -35,8 +35,32 @@ taglio centrale (convenzione hero/-t di lazzaro). Sorgente consigliata: il
 file in `org/` (piena risoluzione); per soggetti verticali il taglio hero
 sarà una fascia centrale — sceglere foto orizzontali quando possibile.
 
-## In arrivo
+## `cull.sh` — sfinimento di una galleria pubblicata
 
-- `cull.sh` — sfinimento di gallerie pubblicate col metodo *demote, non
-  delete*: `org/NN` → `raw/`, rimozione di `edit/NN` e `thumb/NN`, numeri
-  mai riassegnati. Finché non esiste: fare i tre passaggi a mano.
+```bash
+tools/bottega/cull.sh _bottega/img/<progetto>/<sessione> <sigla> NN [NN ...]
+# es.
+tools/bottega/cull.sh _bottega/img/stoned/2024-09-15-stoned ac 03 07 12
+```
+
+Metodo *demote, non delete*: per ogni numero sposta `org/<sessione>-NN.*`
+in `raw/` (archivio, resta in git) ed elimina solo `edit/` e `thumb/`.
+Valida **tutti** i numeri prima di toccare qualsiasi cosa (niente stati a
+metà), accetta `7` o `07` indifferentemente, verifica l'invariante
+org = edit = thumb alla fine. I numeri non vengono **mai** riassegnati:
+i buchi sono ok, gli URL pubblicati restano stabili.
+
+## `restore.sh` — ripescaggio dall'archivio
+
+```bash
+tools/bottega/restore.sh _bottega/img/<progetto>/<sessione> <sigla> NN [NN ...]
+```
+
+L'inverso esatto di `cull.sh`: riporta `raw/<sessione>-NN.*` in `org/` e
+rigenera `edit/` (altezza 1080, **watermark incluso**) e `thumb/` (400) con
+gli stessi parametri di `organize.py`. La foto torna in galleria col suo
+numero originale.
+
+Dopo cull/restore: commit in `_bottega`, push, bump del puntatore nel repo
+principale, push → la build Pages pubblica. Conviene raggruppare più
+modifiche in un unico giro.
