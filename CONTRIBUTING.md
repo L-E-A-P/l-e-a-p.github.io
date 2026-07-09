@@ -159,7 +159,9 @@ _bottega/img/<progetto>/<YYYY-MM-DD[-slug]>/<sigla>/
    Regole: sessioni in **ordine cronologico**; un heading `##` per data;
    **un include per cartella-sigla** (il match di `thumb/` non è
    ricorsivo: un include non può coprire due sigle); la `date:` del
-   front-matter governa l'ordinamento della griglia `/bottega/`.
+   front-matter governa l'ordinamento della griglia `/bottega/` e **non
+   deve mai essere nel futuro** (occhio a non invertire giorno e mese:
+   una data futura fa sparire la pagina con un 404 — vedi § 7).
 
 5. **Pubblica** (§ 7).
 
@@ -249,6 +251,14 @@ Problemi noti e rimedi:
 - **La CDN cachea ~10 minuti**: se non vedi le modifiche (o vedi ancora
   foto tolte), aggiungi `?v=<numero-qualsiasi>` all'URL per verificare.
   Non è un errore.
+- **Il progetto appare in griglia `/bottega/` ma la sua pagina dà 404**
+  (mentre le immagini nuove rispondono): quasi sempre la `date:` del
+  front-matter è **nel futuro** — tipicamente giorno e mese invertiti
+  (es. `2026-08-07` scritto al posto di `2026-07-08`). GitHub Pages builda
+  con `future: false`: il documento viene elencato in griglia ma la sua
+  pagina non viene scritta. Non è un problema di submodule o di build.
+  Rimedio: correggi la `date:` (= ultima sessione pubblicata, mai futura)
+  e rifai il giro del § 7 (commit nel submodule → push → bump → push).
 
 **Verifica finale** sul sito vivo: la pagina del progetto risponde
 (`https://www.leaphz.net/bottega/web/<progetto>/`), le foto nuove ci sono,
